@@ -28,7 +28,7 @@ Route::get('/units', [UnitsController::class, 'units'])->name('units.index');
 Route::get('/components', [ComponentsController::class, 'components'])->name('components.index');
 Route::get('/fractions', [FractionsController::class, 'fractions'])->name('fractions.index');
 Route::get('/forum', [ForumController::class, 'forum'])->name('forum.index');
-Route::post('/search', [SearchController::class, 'search'])->name('search.index');
+Route::get('/search', [SearchController::class, 'search'])->name('search.index');
 
 //Роуты категорий
 Route::get('/category', [CategoryController::class, 'index'])->name('category.index');
@@ -42,7 +42,7 @@ Route::delete('/category/{category}', [CategoryController::class, 'destroy'])->n
 Route::get('/post', [PostController::class, 'index'])->name('post.index');
 Route::get('/post/create', [PostController::class, 'create'])->name('post.create');
 Route::post('/post/create', [PostController::class, 'store'])->name('post.store');
-Route::post('/post/{post}', [PostController::class, 'show'])->name('post.show');
+Route::get('/post/{post}', [PostController::class, 'show'])->name('post.show');
 Route::get('/post/{post}/edit', [PostController::class, 'edit'])->name('post.edit');
 Route::put('/post/{post}', [PostController::class, 'update'])->name('post.update');
 Route::delete('/post/{post}', [PostController::class, 'destroy'])->name('post.destroy');

@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Post;
 
 use App\Http\Controllers\Controller;
-use App\Http\Requests\FilterRequest;
+//use App\Http\Requests\FilterRequest;
 use App\Models\Category;
 use App\Models\Post;
 use Illuminate\Http\Request;
@@ -32,7 +32,8 @@ class PostController extends Controller
     }
 
     public function show(Post $post){
-        return view('post.show', compact('post'));
+        $categories = Category::all();
+        return view('forum/admin/posts.show', compact('post', 'categories'));
     }
 
     public function edit(Post $post){
@@ -42,8 +43,8 @@ class PostController extends Controller
 
     public function update(Post $post){
         $data = request()->validate([
-            'title' => 'required|min:5|max:30',
-            'content' => 'required|min:5',
+            'title' => 'required|min:5',
+            'content' => 'required|max:500',
             'category_id' => 'required',
         ]);
         $post->update($data);
