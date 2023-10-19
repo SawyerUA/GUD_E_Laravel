@@ -1,0 +1,273 @@
+:root{
+    --color1: #808000;
+    --color2: #BDB76B;
+}
+section{
+    padding: 100px 0;
+}
+header, footer{
+    background: var(--color1);
+    background: -moz-linear-gradient(left,  var(--color1) 0%, var(--color2) 100%);
+    background: -webkit-linear-gradient(left,  var(--color1) 0%,var(--color2) 100%);
+    background: linear-gradient(to right,  var(--color1) 0%,var(--color2) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr= var(--color1), endColorstr=var(--color2),GradientType=1 );
+    background-size: contain;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/*--- Header ---*/
+header{
+    height: 60px;
+    padding: 0 auto;
+}
+header li{
+    padding: 0 10px;
+    border-radius: 5px;
+}
+header li:hover{
+    background-color: var(--color1);
+}
+.dropdown-menu.show{
+    background: var(--color2);
+    position: absolute;
+    top: 35px;
+    right: 40px;
+}
+.dropdown-item:hover{
+    background-color: var(--color1);
+}
+.navbar-nav{
+    background: var(--color2);
+    border-radius: 5px;
+}
+.nav-link{
+    color: black;
+}
+/*Section to play and forwhom*/
+.to-play, .forwhom{
+    background-color: #eee;
+}
+.btn-to{
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 8px 30px;
+}
+/*Section about*/
+.game-about{
+    color: var(--color1);
+}
+.about i{
+    font-size: 25px;
+    color: var(--color2);
+}
+.btn-circle{
+    margin: 0 auto 15px;
+    width: 70px;
+    height: 70px;
+    border: 3px solid var(--color2);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center-menu :hover{
+    color: var(--color1);
+    transition: all 0.5s;
+}
+.forwhom h5{
+    padding: 50px;
+    border: 3px solid var(--color2);
+}
+
+/*Accordions*/
+.accordion-button:not(.collapsed){
+    color: black;
+    background-color: #BDB76B;
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='black'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+.accordion-button, .accordion-body{
+    background: #eee;
+}
+
+/*--- Footer ---*/
+footer{
+    padding: 15px;
+    height: auto;
+}
+footer .social{
+    margin-right: 5px;
+    padding: 1px;
+    display: inline-block;
+}
+footer .socials a{
+    color: black;
+}
+footer .socials a:hover{
+    color: khaki;
+    transition: 0.5s;
+}
+.list{
+    margin-top: 15px;
+}
+footer span i{
+    display: inline-block;
+    font-size: 1em;
+    margin-right: 5px;
+}
+footer .text{
+    font-weight: 600;
+}
+footer .nav ul{
+    position: sticky;
+}
+footer .nav ul li a{
+    display: block;
+    color: black;
+    font-size: 1.1em;
+    padding-bottom: 5px;
+}
+footer .nav ul li a:hover{
+    color: khaki;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+.copy{
+    margin-top: 15px;
+    font-size: 11px;
+}
+.o-form{
+    margin-top: -5px;
+}
+/*--- Страница регистрации ---*/
+.f-btn:hover{
+    border-color: var(--color2);
+    background: var(--color1);
+    color: #eee;
+}
+.reg-form h2{
+    padding-bottom: 20px;
+}
+/*--- Страница логина ---*/
+form .pf{
+    margin-left: 60px;
+    margin-right: 10px;
+}
+form a:hover{
+    color: black;
+}
+/*--- Картинки в разделе Фракции ---*/
+.card-img-top{
+    height: 160px;
+}
+/*--- Forum ---*/
+.forum{
+    background: #eee;
+}
+.forum h3{
+    margin: 30px 0;
+    padding: 10px 0;
+}
+.forum-categ li{
+    padding: 10px;
+    margin: 3px;
+    border-bottom: 1px solid var(--color1);
+    list-style: none;
+}
+.forum-categ li a:hover{
+    color: khaki;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+.forum-categ{
+    padding-right: 15px;
+    min-height: 300px;
+    background: var(--color2);
+    border-radius: 4px;
+}
+.posts{
+    padding: 0px 90px;
+}
+.post-text {
+    border-bottom: 1px solid var(--color1);
+    margin-bottom: 2em;
+}
+.post-text i{
+    margin-right: 8px;
+}
+.post-text h5{
+    padding: 5px 0;
+    margin: 5px 0;
+}
+.post-text h5 a:hover{
+    color: black;
+    text-decoration: underline;
+}
+/*--- All categories ---*/
+.table-content .row{
+    padding: 10px 0;
+    margin: 10px 0;
+    border-bottom: 1px solid grey;
+}
+.table-content i{
+    padding-right: 5px;
+}
+.table-content .edit{
+    color: #006400;
+}
+.table-content .del{
+    color: #800000;
+}
+/*--- Сингл пост ---*/
+.img-single-post{
+    min-height: 100px;
+    max-width: 250px;
+    margin-bottom: 2em;
+}
+/*--- Комменты  ---*/
+.comments .one-com{
+    border: 1px var(--color1) solid;
+    border-radius: 4px;
+    margin: 10px 0px;
+    padding: 5px 5px 5px 3px;
+}
+.comments .one-com span{
+    padding: 0 0 0 1em;
+    font-style: italic;
+    font-weight: 400;
+}
+.comments .one-com p{
+    margin-top: 1em;
+    padding: 0 0 0 1em;
+}
+.comments .one-com .del{
+    color: #800000;
+}
+.comments .one-com .del i{
+    padding-right: 5px;
+}
+.del input{
+    border: none;
+}
+/*--- Игрушка ---*/
+.table-bordered{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+.table-bordered td{
+    height: 6em;
+    width: 4em;
+}
+.table-bordered .right-num{
+    vertical-align: middle;
+}
+.hit{
+    background: url("img/cross.png") no-repeat center center;
+}
+.miss{
+    background: url("img/dot.png") no-repeat center center;
+}
