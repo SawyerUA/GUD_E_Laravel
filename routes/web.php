@@ -9,6 +9,7 @@ use App\Http\Controllers\Post\PostController;
 use App\Http\Controllers\RulesController;
 use App\Http\Controllers\SearchController;
 use App\Http\Controllers\UnitsController;
+use App\Http\Controllers\User\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -30,6 +31,12 @@ Route::get('/fractions', [FractionsController::class, 'fractions'])->name('fract
 Route::get('/forum', [ForumController::class, 'forum'])->name('forum.index');
 Route::get('/search', [SearchController::class, 'search'])->name('search.index');
 
+//Роуты юзеров
+Route::get('/user', [UserController::class, 'index'])->name('user.index');
+Route::get('/user/{user}/edit', [UserController::class, 'edit'])->name('user.edit');
+Route::put('/user/{user}', [UserController::class, 'update'])->name('user.update');
+Route::delete('/user/{user}', [UserController::class, 'destroy'])->name('user.destroy');
+
 //Роуты категорий
 Route::get('/category', [CategoryController::class, 'index'])->name('category.index');
 Route::get('/category/create', [CategoryController::class, 'create'])->name('category.create');
@@ -46,3 +53,7 @@ Route::get('/post/{post}', [PostController::class, 'show'])->name('post.show');
 Route::get('/post/{post}/edit', [PostController::class, 'edit'])->name('post.edit');
 Route::put('/post/{post}', [PostController::class, 'update'])->name('post.update');
 Route::delete('/post/{post}', [PostController::class, 'destroy'])->name('post.destroy');
+
+Auth::routes();
+
+//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

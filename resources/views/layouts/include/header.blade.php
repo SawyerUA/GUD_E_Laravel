@@ -27,13 +27,28 @@
                             <li class="nav-item">
                                 <a class="nav-link active" href="{{route('forum.index')}}">Форум</a>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Авторизация</a>
+                            @guest
+                                @if (Route::has('login'))
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Авторизация</a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <li><a class="dropdown-item" href="{{route('login')}}">Вход</a></li>
+                                            <li><a class="dropdown-item" href="">Выход</a></li>
+                                        </ul>
+                                @endif
+                            @else
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-regular fa-user"></i> {{ Auth::user()->name }}</a>
+
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="">Вход</a></li>
-                                    <li><a class="dropdown-item" href="">Выход</a></li>
+                                    <form id="logout-form" action="{{ route('logout') }}" method="post">
+                                        @csrf
+                                        <li><a class="dropdown-item" href="{{ route('logout') }}"
+                                               onclick="event.preventDefault();
+                                                document.getElementById('logout-form').submit();">Выход</a></li>
+                                    </form>
                                 </ul>
-                            </li>
+                            @endguest
                         </ul>
                     </div>
                 </div>
