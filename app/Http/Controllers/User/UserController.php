@@ -28,4 +28,9 @@ class UserController extends Controller
         $user->update($data);
         return redirect(route('user.index'));
     }
+
+    public function destroy(User $user){
+        $user->delete();
+        return redirect(route('user.index'));
+    }
 }

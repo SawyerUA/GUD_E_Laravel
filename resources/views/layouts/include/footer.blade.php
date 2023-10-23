@@ -26,7 +26,11 @@
                         <li><a href="{{route('units.index')}}">Юниты</a></li>
                         <li><a href="{{route('components.index')}}">Компоненты</a></li>
                         <li><a href="{{route('fractions.index')}}">Фракции</a></li>
-                        <li><a href="{{route('forum.index')}}">Форум</a></li>
+                        @if(Auth::check())
+                            <li><a href="{{route('forum.index')}}">Форум</a></li>
+                        @else
+                            <li><a href="#" onclick="let btn = document.getElementById('forum-btn'); btn.click();">Форум</a></li>
+                        @endif
                     </ul>
                 </div>
             </div>

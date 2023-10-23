@@ -23,6 +23,7 @@
                     <button type="button" class="btn btn-secondary">Создать статью</button>
                 </a>
             </div>
+            @can('view', auth()->user())
             <h4 class="text-center categ">Администратору</h4>
             <ul>
                 <li><a href="{{route('post.index')}}">Ко всем статьям</a></li>
@@ -34,4 +35,5 @@
                     <button type="button" class="btn btn-secondary">Создать категорию</button>
                 </a>
             </div>
+            @endcan
         </div>

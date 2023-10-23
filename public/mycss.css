@@ -41,9 +41,16 @@ header li:hover{
 .navbar-nav{
     background: var(--color2);
     border-radius: 5px;
+    margin-bottom: 0.3em;
 }
 .nav-link{
     color: black;
+}
+.game_title{
+    font-family: 'Black Ops One';
+    font-size: 26px;
+    font-style: italic;
+    text-shadow: -2px 1.5px 5px #ffffff;
 }
 /*Section to play and forwhom*/
 .to-play, .forwhom{
@@ -92,6 +99,14 @@ header li:hover{
 }
 .accordion-button, .accordion-body{
     background: #eee;
+}
+ul .pagin{
+    background: #6c757d !important;
+    border-color: #ffffff !important;
+    color: #ffffff;
+}
+ul .pagin :hover{
+    color: #ffffff !important;
 }
 
 /*--- Footer ---*/

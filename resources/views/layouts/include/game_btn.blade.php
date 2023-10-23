@@ -5,7 +5,7 @@
                 <h1 class="text-center text-black">GUD-E</h1>
                 <div class="btn-to">
                     <!-- Кнопка запуска в игру -->
-                    <button type="button" class="btn btn-primary btn-lg ms-3" data-bs-toggle="modal"
+                    <button type="button" class="btn btn-secondary btn-lg ms-3" data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop">Играть!
                     </button>
                     <!-- Modal -->

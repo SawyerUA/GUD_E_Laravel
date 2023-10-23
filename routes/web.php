@@ -32,27 +32,33 @@ Route::get('/forum', [ForumController::class, 'forum'])->name('forum.index');
 Route::get('/search', [SearchController::class, 'search'])->name('search.index');
 
 //Роуты юзеров
-Route::get('/user', [UserController::class, 'index'])->name('user.index');
-Route::get('/user/{user}/edit', [UserController::class, 'edit'])->name('user.edit');
-Route::put('/user/{user}', [UserController::class, 'update'])->name('user.update');
-Route::delete('/user/{user}', [UserController::class, 'destroy'])->name('user.destroy');
+Route::middleware('admin')->group(function(){
+    Route::get('/user', [UserController::class, 'index'])->name('user.index');
+    Route::get('/user/{user}/edit', [UserController::class, 'edit'])->name('user.edit');
+    Route::put('/user/{user}', [UserController::class, 'update'])->name('user.update');
+    Route::delete('/user/{user}', [UserController::class, 'destroy'])->name('user.destroy');
+});
+
 
 //Роуты категорий
-Route::get('/category', [CategoryController::class, 'index'])->name('category.index');
-Route::get('/category/create', [CategoryController::class, 'create'])->name('category.create');
-Route::post('/category/create', [CategoryController::class, 'store'])->name('category.store');
-Route::get('/category/{category}/edit', [CategoryController::class, 'edit'])->name('category.edit');
-Route::patch('/category/{category}', [CategoryController::class, 'update'])->name('category.update');
-Route::delete('/category/{category}', [CategoryController::class, 'destroy'])->name('category.destroy');
+Route::middleware('admin')->group(function(){
+    Route::get('/category', [CategoryController::class, 'index'])->name('category.index');
+    Route::get('/category/create', [CategoryController::class, 'create'])->name('category.create');
+    Route::post('/category/create', [CategoryController::class, 'store'])->name('category.store');
+    Route::get('/category/{category}/edit', [CategoryController::class, 'edit'])->name('category.edit');
+    Route::patch('/category/{category}', [CategoryController::class, 'update'])->name('category.update');
+    Route::delete('/category/{category}', [CategoryController::class, 'destroy'])->name('category.destroy');
+});
+
 
 //Роуты постов
-Route::get('/post', [PostController::class, 'index'])->name('post.index');
+Route::get('/post', [PostController::class, 'index'])->middleware('admin')->name('post.index');
 Route::get('/post/create', [PostController::class, 'create'])->name('post.create');
 Route::post('/post/create', [PostController::class, 'store'])->name('post.store');
 Route::get('/post/{post}', [PostController::class, 'show'])->name('post.show');
 Route::get('/post/{post}/edit', [PostController::class, 'edit'])->name('post.edit');
 Route::put('/post/{post}', [PostController::class, 'update'])->name('post.update');
-Route::delete('/post/{post}', [PostController::class, 'destroy'])->name('post.destroy');
+Route::delete('/post/{post}', [PostController::class, 'destroy'])->middleware('admin')->name('post.destroy');
 
 Auth::routes();
 
