@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Category;
 
 use App\Http\Controllers\Controller;
 use App\Models\Category;
+use function Laravel\Prompts\error;
 
 class CategoryController extends Controller
 {
@@ -21,7 +22,7 @@ class CategoryController extends Controller
         $data = request()->validate([
             'category' => 'required|min:5|max:30',
         ]);
-        Category::create($data);
+        Category::updateOrCreate($data, $data);
         return redirect()->route('category.index');
     }
 
@@ -32,7 +33,7 @@ class CategoryController extends Controller
 
     public function update(Category $category){
         $data = request()->validate([
-           'category' => '',
+            'category' => '',
         ]);
         $category->update($data);
         return redirect(route('category.index'));

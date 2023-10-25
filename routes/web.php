@@ -6,6 +6,7 @@ use App\Http\Controllers\ForumController;
 use App\Http\Controllers\FractionsController;
 use App\Http\Controllers\IndexController;
 use App\Http\Controllers\Post\PostController;
+use App\Http\Controllers\Post_CategoryController;
 use App\Http\Controllers\RulesController;
 use App\Http\Controllers\SearchController;
 use App\Http\Controllers\UnitsController;
@@ -30,6 +31,7 @@ Route::get('/components', [ComponentsController::class, 'components'])->name('co
 Route::get('/fractions', [FractionsController::class, 'fractions'])->name('fractions.index');
 Route::get('/forum', [ForumController::class, 'forum'])->name('forum.index');
 Route::get('/search', [SearchController::class, 'search'])->name('search.index');
+Route::get('/post_category/{category}', [Post_CategoryController::class, 'show'])->name('post_category.index');
 
 //Роуты юзеров
 Route::middleware('admin')->group(function(){
@@ -38,7 +40,6 @@ Route::middleware('admin')->group(function(){
     Route::put('/user/{user}', [UserController::class, 'update'])->name('user.update');
     Route::delete('/user/{user}', [UserController::class, 'destroy'])->name('user.destroy');
 });
-
 
 //Роуты категорий
 Route::middleware('admin')->group(function(){

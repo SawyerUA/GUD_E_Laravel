@@ -15,7 +15,7 @@
             <h3 class="text-center categ">Разделы</h3>
             <ul class="forum-categ">
                 @foreach($categories as $category)
-                    <li><a href="#">{{$category->category}}</a></li>
+                    <li><a href="{{route('post_category.index', $category->id)}}">{{$category->category}}</a></li>
                 @endforeach
             </ul>
             <div class="d-flex justify-content-center mb-5">

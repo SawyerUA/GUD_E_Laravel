@@ -4,7 +4,11 @@
 
     <div class="container reg-form">
         <h2 class="text-center">Авторизация</h2>
-        <p class="text-center text-danger fw-bold fs-6 mt-3 mb-4 fst-italic errMsg"></p>
+        @if($errors->any())
+            @foreach($errors->all() as $error)
+        <p class="text-center text-danger fw-bold fs-6 mt-3 mb-4 fst-italic errMsg">{{$error}}</p>
+            @endforeach
+        @endif
         <form class="row justify-content-center" method="post" action="{{route('login')}}">
             @csrf
             <div class="w-100"></div>
