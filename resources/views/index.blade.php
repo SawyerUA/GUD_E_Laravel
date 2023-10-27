@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('title')
-    GUD-E - настольная стратегия
+    GUD-E - {{__('board strategy')}}
 @endsection
 
 @section('content')
@@ -10,36 +10,36 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="game-about text-center mb-5">Об игре</h2>
+                    <h2 class="game-about text-center mb-5">{{__('About the game')}}</h2>
                 </div>
             </div>
             <div class="row">
                 <div class="col-xl-3 col-md-6 col-sm-12">
                     <div class="btn-circle">
-                        <a href="{{route('rules.index')}}"><i class="fa-solid fa-book-open"></i>
+                        <a href="{{route('rules.index', app()->getLocale())}}"><i class="fa-solid fa-book-open"></i>
                     </div>
-                    <h5 class="text-center center-menu">Правила</a></h5>
+                    <h5 class="text-center center-menu">{{__('Rules')}}</a></h5>
                 </div>
 
                 <div class="col-xl-3 col-md-6 col-sm-12">
                     <div class="btn-circle">
-                        <a href="{{route('units.index')}}"><i class="fa-solid fa-person-rifle"></i>
+                        <a href="{{route('units.index', app()->getLocale())}}"><i class="fa-solid fa-person-rifle"></i>
                     </div>
-                    <h5 class="text-center center-menu">Юниты</a></h5>
+                    <h5 class="text-center center-menu">{{__('Units')}}</a></h5>
                 </div>
 
                 <div class="col-xl-3 col-md-6 col-sm-12">
                     <div class="btn-circle">
-                        <a href="{{route('components.index')}}"><i class="fa-solid fa-boxes-stacked"></i>
+                        <a href="{{route('components.index', app()->getLocale())}}"><i class="fa-solid fa-boxes-stacked"></i>
                     </div>
-                    <h5 class="text-center center-menu">Компоненты</a></h5>
+                    <h5 class="text-center center-menu">{{__('Components')}}</a></h5>
                 </div>
 
                 <div class="col-xl-3 col-md-6 col-sm-12">
                     <div class="btn-circle">
-                        <a href="{{route('fractions.index')}}"><i class="fa-solid fa-flag"></i>
+                        <a href="{{route('fractions.index', app()->getLocale())}}"><i class="fa-solid fa-flag"></i>
                     </div>
-                    <h5 class="text-center center-menu">Фракции</a></h5>
+                    <h5 class="text-center center-menu">{{__('Fractions')}}</a></h5>
                 </div>
             </div>
         </div>
@@ -49,21 +49,21 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="game-about text-center mb-5 color2">Игра для тех</h2>
+                    <h2 class="game-about text-center mb-5 color2">{{__('The game for')}}</h2>
                 </div>
             </div>
             <div class="row md-5">
                 <div class="col-md-6 col-sm-12">
-                    <h5 class="text-center">Кто любит формат настольных игр</h5>
+                    <h5 class="text-center">{{__('Those who love board games')}}</h5>
                 </div>
                 <div class="col-md-6 col-sm-12">
-                    <h5 class="text-center">Кому нравится тактика и стратегия</h5>
+                    <h5 class="text-center">{{__('Those who like tactic and strategy')}}</h5>
                 </div>
                 <div class="col-md-6 col-sm-12">
-                    <h5 class="text-center">Кому слово "союз" не просто звук</h5>
+                    <h5 class="text-center">{{__('Those for whom the word "union" is not just a sound')}}</h5>
                 </div>
                 <div class="col-md-6 col-sm-12">
-                    <h5 class="text-center">Кто сам определяет длинну партии</h5>
+                    <h5 class="text-center">{{__('Those who determine the game length themselves ')}}</h5>
                 </div>
             </div>
             <div class="row">

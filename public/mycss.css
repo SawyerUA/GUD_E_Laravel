@@ -31,9 +31,18 @@ header li:hover{
 }
 .dropdown-menu.show{
     background: var(--color2);
+    min-width: 5em;
+    text-align: left;
     position: absolute;
     top: 35px;
-    right: 40px;
+    right: 1px;
+}
+#forum-btn{
+    cursor: pointer;
+}
+.lang.show {
+    background: var(--color2);
+    min-width: 4em;
 }
 .dropdown-item:hover{
     background-color: var(--color1);

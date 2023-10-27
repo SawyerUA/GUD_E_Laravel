@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Laravel\Scout\Attributes\SearchUsingPrefix;
 use Laravel\Scout\Searchable;
 
 class Post extends Model
@@ -12,6 +13,12 @@ class Post extends Model
     use Searchable;
     protected $guarded;
 
+    /**
+     * Get the indexable data array for the model.
+     *
+     * @return array<string, mixed>
+     */
+    #[SearchUsingPrefix(['title', 'content'])]
     public function toSearchableArray(): array
     {
         return [

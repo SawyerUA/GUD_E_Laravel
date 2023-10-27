@@ -6,6 +6,7 @@ namespace App\Providers;
 use App\Models\User;
 use App\Policies\AdminPolicy;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
+use Laravel\Fortify\Fortify;
 
 class AuthServiceProvider extends ServiceProvider
 {
@@ -23,6 +24,8 @@ class AuthServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+        Fortify::loginView(function () {
+            return view('auth.login');
+        });
     }
 }

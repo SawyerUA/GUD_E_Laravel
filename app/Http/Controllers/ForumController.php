@@ -12,9 +12,9 @@ class ForumController extends Controller
 {
     public function forum(){
         $categories = Category::all();
-        $posts = DB::table('posts')
-            ->join('users', 'posts.user_id', '=', 'users.id' )
+        $posts = Post::join('users', 'posts.user_id', '=', 'users.id' )
             ->select('users.name', 'posts.*')
+            ->orderBy('created_at', 'DESC')
             ->paginate(10);
         return view('forum.index', compact('categories','posts'));
     }

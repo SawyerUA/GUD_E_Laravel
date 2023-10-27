@@ -18,11 +18,20 @@ class UserFactory extends Factory
     public function definition(): array
     {
         return [
-            'name' => 'Admin',
-            'email' => 'admin@admin.com',
-            'is_admin' => 1,
+//            'name' => 'Admin',
+//            'email' => 'admin@admin.com',
+//            'is_admin' => 1,
+//            'is_registered' => 1,
+//            'email_verified_at' => now(),
+//            'password' => password_hash('1111',PASSWORD_DEFAULT), // password
+//            'remember_token' => Str::random(10),
+
+            'name' => $this->faker->name,
+            'email' => $this->faker->email,
+            'is_admin' => 0,
+            'is_registered' => 1,
             'email_verified_at' => now(),
-            'password' => '1111', // password
+            'password' => password_hash('1111',PASSWORD_DEFAULT), // password
             'remember_token' => Str::random(10),
         ];
     }

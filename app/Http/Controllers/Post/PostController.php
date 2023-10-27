@@ -34,17 +34,17 @@ class PostController extends Controller
         ]);
         Post::updateOrCreate($data, $data);
         if (Auth::user()->is_admin == 1) {
-            return redirect()->route('post.index');
+            return redirect()->route('post.index', app()->getLocale());
         }else{
-            return redirect()->route('forum.index');
+            return redirect()->route('forum.index', app()->getLocale());
         }
     }
 
     public function show(Post $post){
         $categories = Category::all();
-        //dd($post);
-        $users = DB::table('posts')
-            ->join('users', 'posts.user_id', '=', 'users.id')
+        $views = $post->views+1;
+        Post::where('id', $post->id)->update(['views' => $views]);
+        $users = Post::join('users', 'posts.user_id', '=', 'users.id')
             ->select('users.name', 'posts.*')
             ->get();
         return view('forum/admin/posts.show', compact('post', 'categories', 'users'));
@@ -62,11 +62,11 @@ class PostController extends Controller
             'category_id' => 'required',
         ]);
         $post->update($data);
-        return redirect(route('post.index'));
+        return redirect(route('post.index', app()->getLocale()));
     }
 
     public function destroy(Post $post){
         $post->delete();
-        return redirect(route('post.index'));
+        return redirect(route('post.index', app()->getLocale()));
     }
 }

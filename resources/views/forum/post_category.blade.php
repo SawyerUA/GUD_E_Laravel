@@ -6,16 +6,16 @@
         @include('layouts.include.sidebar')
 
         <div class="container col-md-9">
-            <h3 class="text-center">Статьи из категории: <span class="fst-italic f"><u>{{$category->category}}</u></span></h3>
+            <h3 class="text-center">{{__('Posts from: ')}}<span class="fst-italic"><u>{{$category->category}}</u></span></h3>
 
             @foreach($posts as $post)
                 @if($post->category_id == $category->id)
                     <div class="row posts">
                         <div class="post-text col-12">
-                            <h5><a class="link" href="{{route('post.show', $post->id)}}"> {{$post->title}}</a></h5>
-                            <i class="fa-solid fa-user fa-xs"> {{$post->name}}</i>
-                            <i class="fa-solid fa-eye fa-xs" id="views"> 123{{$post->views}}</i>
-                            <i class="fa-solid fa-calendar-days fa-xs"> {{$post->created_at}}</i>
+                            <h5><a class="link" href="{{route('post.show', [$post->id, app()->getLocale()])}}">{{substr($post->title, 0, 35) == 35 ? $post->title : substr($post->title, 0, 35) . '...'}}</a></h5>
+                            <i class="fa-solid fa-user fa-xs"></i>{{$post->name}}
+                            <i class="fa-solid fa-eye fa-xs ms-3" id="views"></i>{{$post->views}}
+                            <i class="fa-solid fa-calendar-days fa-xs ms-3"></i>{{$post->created_at}}
                         </div>
                     </div>
                 @endif

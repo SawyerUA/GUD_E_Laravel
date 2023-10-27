@@ -1,0 +1,86 @@
+{
+    "board strategy": "настільна стратегія",
+
+    "Home": "Головна",
+    "Rules": "Правила",
+    "Units": "Юніти",
+    "Components": "Компоненти",
+    "Fractions": "Фракції",
+    "Forum": "Форум",
+    "Authorization": "Авторизація",
+    "Log in": "Увійти",
+    "Logout": "Вийти",
+    "You can visit forum only after registration": "Відвідати форум можливо тільки після реєстрації",
+
+    "Website is developed based on personal practice" : "Сайт розроблен на основі власної практики",
+    "Quick access" : "Швидкий доступ",
+    "Ask author" : "Запитати автора",
+    "Ask your question..." : "Задайте питання",
+    "Send" : "Відправити",
+
+    "Play" : "Грати!",
+    "Really start the game?" : "Дійсно почати гру?",
+    "Yeah, let's go!" : "Так, поїхали!",
+    "Nah, wait a minute" : "Ні, зачекайте хвилинку",
+
+    "About the game" : "Про гру",
+    "The game for" : "Гра для тих",
+    "Those who love board games" : "Хто любить настільні ігри",
+    "Those who like tactic and strategy" : "Кому подобається тактика і стратегія",
+    "Those for whom the word \"union\" is not just a sound" : "Для кого слово \"союз\" не просто звук",
+    "Those who determine the game length themselves " : "Хто сам визначає довжину партії",
+
+    "enter your email": "введіть вашу пошту",
+    "Remember me": "Запам'ятати мене",
+    "Forgot password?": "Забули пароль?",
+    "Login": "Ваш логін",
+    "Email": "Ваша пошта",
+    "Password": "Ваш пароль",
+    "Repeat Password": "Повторіть ваш пароль",
+    "Registration": "Реєстрація",
+    "Your email will not use for spam": "Ваша пошта не буде використана для спаму",
+
+    "Search" : "Пошук",
+    "type something..." : "введіть щось...",
+    "Categories" : "Розділи",
+    "Create post" : "Створити статтю",
+    "For Administrator" : "Адміністратору",
+    "All posts" : "До всіх статей",
+    "All categories" : "До всіх категорій",
+    "All users" : "Керування користувачами",
+    "Create category" : "Створити категорію",
+
+    "Last themes" : "Останні статті",
+
+    "Posts management" : "Керування статтями",
+    "Title" : "Назва",
+    "Administration" : "Керування",
+    "Edit" : "Ред.",
+    "Delete" : "Видалити",
+
+    "Post creation" : "Створення статті",
+    "Post title" : "Назва статті",
+    "Post content" : "Наповнення статті",
+    "Select a category:" : "Оберіть категорію",
+    "Attach" : "Прикріпити",
+    "Edit post" : "Редагування статті",
+    "Post update" : "Оновити статтю",
+
+    "Categories management" : "Керування категоріями",
+    "Category creation" : "Створення категорії",
+    "Category title" : "Назва категорії",
+    "Category edit" : "Редагування категорії",
+    "Update category" : "Оновити категорію",
+
+    "Users management" : "Керування користувачами",
+    "Role" : "Роль",
+    "Admin" : "Адмін",
+    "User" : "Юзер",
+    "User update" : "Редагування користувачів",
+    "User login" : "Логін користувача",
+    "User name" : "Ім'я користувача",
+
+    "Posts from: " : "Статті з категорії: ",
+
+    "Found posts" : "Знайдені статті"
+}

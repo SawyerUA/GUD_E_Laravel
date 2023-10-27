@@ -24,13 +24,12 @@ class UserController extends Controller
             'name' => '',
             'is_admin' => '',
         ]);
-
         $user->update($data);
-        return redirect(route('user.index'));
+        return redirect(route('user.index', app()->getLocale()));
     }
 
     public function destroy(User $user){
         $user->delete();
-        return redirect(route('user.index'));
+        return redirect(route('user.index', app()->getLocale()));
     }
 }

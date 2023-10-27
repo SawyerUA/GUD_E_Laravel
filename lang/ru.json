@@ -1,0 +1,86 @@
+{
+    "board strategy": "Настольная стратегия",
+
+    "Home": "Главная",
+    "Rules": "Правила",
+    "Units": "Юниты",
+    "Components": "Компоненты",
+    "Fractions": "Фракции",
+    "Forum": "Форум",
+    "Authorization": "Авторизация",
+    "Log in": "Войти",
+    "Logout": "Выйти",
+    "You can visit forum only after registration": "Посетить форум можно только после регистрации",
+
+    "Website is developed based on personal practice" : "Сайт разработан на основании личной практики",
+    "Quick access" : "Быстрый доступ",
+    "Ask author" : "Спросить автора",
+    "Ask your question..." : "Задать вопрос",
+    "Send" : "Отправить",
+
+    "Play" : "Играть!",
+    "Really start the game?" : "Действительно начать игру",
+    "Yeah, let's go!" : "Да, поехали!",
+    "Nah, wait a minute" : "Нет, подождите минутку",
+
+    "About the game" : "Про игру",
+    "The game for" : "Игра для тех",
+    "Those who love board games" : "Кто любит настольные игры",
+    "Those who like tactic and strategy" : "Кому нравится тактика и стратегия",
+    "Those for whom the word \"union\" is not just a sound" : "Для кого слово \"союз\" не просто звук",
+    "Those who determine the game length themselves " : "Кто сам определяет длину партии",
+
+    "enter your email": "введите вашу почту",
+    "Remember me": "Запмонить меня",
+    "Forgot password?": "Забыли пароль?",
+    "Login": "Ваш логин",
+    "Email": "Ваша почта",
+    "Password": "Ваш пароль",
+    "Repeat Password": "Повторите ваш пароль",
+    "Registration": "Регестрация",
+    "Your email will not use for spam": "Ваша почта не будет использована для спама",
+
+    "Search" : "Поиск",
+    "type something..." : "введите что-то...",
+    "Categories" : "разделы",
+    "Create post" : "Создать статью",
+    "For Administrator" : "Администратору",
+    "All posts" : "Ко всем статьям",
+    "All categories" : "Ко всем категориям",
+    "All users" : "Управление пользователями",
+    "Create category" : "Создать категориюю",
+
+    "Last themes" : "Последние статьи",
+
+    "Posts management" : "Управление статьями",
+    "Title" : "Название",
+    "Administration" : "Управление",
+    "Edit" : "Ред.",
+    "Delete" : "Удалить",
+
+    "Post creation" : "Создание статьи",
+    "Post title" : "Название статьи",
+    "Post content" : "Наполнение статьи",
+    "Select a category:" : "Выберите категорию",
+    "Attach" : "Прикрепить",
+    "Edit post" : "Редактирование статьи",
+    "Post update" : "Обновить статью",
+
+    "Categories management" : "Управление категориями",
+    "Category creation" : "Создание категории",
+    "Category title" : "Название категории",
+    "Category edit" : "Редактирование категории",
+    "Update category" : "Обновление категории",
+
+    "Users management" : "Управление пользователями",
+    "Role" : "Роль",
+    "Admin" : "Админ",
+    "User" : "Юзер",
+    "User update" : "Редактирование пользователей",
+    "User login" : "Логин пользователя",
+    "User name" : "Имя пользователя",
+
+    "Posts from: " : "Статьи из категории:",
+
+    "Found posts" : "Найденные статьи"
+}

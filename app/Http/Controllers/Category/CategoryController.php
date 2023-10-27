@@ -23,7 +23,7 @@ class CategoryController extends Controller
             'category' => 'required|min:5|max:30',
         ]);
         Category::updateOrCreate($data, $data);
-        return redirect()->route('category.index');
+        return redirect()->route('category.index', app()->getLocale());
     }
 
     public function edit(Category $category){
@@ -36,7 +36,7 @@ class CategoryController extends Controller
             'category' => '',
         ]);
         $category->update($data);
-        return redirect(route('category.index'));
+        return redirect(route('category.index', app()->getLocale()));
     }
 
     public function destroy(Category $category){

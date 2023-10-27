@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('title')
-    Юниты
+    {{__('Units')}}
 @endsection
 
 @section('content')

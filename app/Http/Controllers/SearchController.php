@@ -8,9 +8,15 @@ use Illuminate\Http\Request;
 
 class SearchController extends Controller
 {
-    public function search(){
+    public function index(Request $request){
+
         $categories = Category::all();
-        $posts = Post::search()->paginate(10);
+        $search = $request->search;
+        $posts = Post::join('users', 'posts.user_id', '=', 'users.id')
+            ->select('users.name', 'posts.*')
+            ->where('title', 'LIKE', "%$search%")
+            ->orWhere('content', 'LIKE', "%$search%")
+            ->paginate(10);
         return view('forum.search', compact('categories', 'posts'));
     }
 }

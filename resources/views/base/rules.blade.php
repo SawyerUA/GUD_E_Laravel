@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('title')
-    Правила
+    {{__('Rules')}}
 @endsection
 
 @section('content')

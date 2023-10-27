@@ -85,6 +85,12 @@ return [
 
     'locale' => 'en',
 
+    'available_locales' => [
+        'en',
+        'ua',
+        'ru'
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Application Fallback Locale
@@ -168,6 +174,8 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        //App\Providers\FortifyServiceProvider::class,
+        Laravel\Scout\ScoutServiceProvider::class,
     ])->toArray(),
 
     /*

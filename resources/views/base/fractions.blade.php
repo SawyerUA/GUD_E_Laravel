@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('title')
-    Фракции
+    {{__('Fractions')}}
 @endsection
 
 @section('content')
