@@ -82,5 +82,191 @@
 
     "Posts from: " : "Статті з категорії: ",
 
-    "Found posts" : "Знайдені статті"
+    "Found posts" : "Знайдені статті",
+
+    "Introduction" : "Вступ",
+    "The game invites you to plunge into a randomly developing alternative history of the World War, in which not only tactics and strategy will play a role, but also the generation of the campaign map itself. The events of the game will take place in randomly generated locations, where different countries of the world will enter the battle. Your tasks will include: destroy all enemies and/or achieve victory by any other means." : "Гра пропонує зануритися в альтернативну історію Світової війни, що випадково розвивається, в якій гратиме роль не тільки тактика і стратегія, а й генерація самої карти кампанії. Події гри відбуватимуться у довільно згенерованих локаціях, на яких до битви вступлять різні країни світу. Ваші завдання включатимуть: знищити всіх ворогів і/або досягти перемоги будь-якими іншими способами.",
+    "The game includes:" : "В набір входить:",
+    "«Tasks» card deck" : "Колода карток «Завдання»",
+    "«Daily events» card deck" : "Колода карток «Щоденні події»",
+    "«Box» card deck" : "Колода карток «Ящик»",
+    "«Bunker» card deck" : "Колода карток «Бункер»",
+    "«Field headquarters» card deck" : "Колода карток «Польовий штаб»",
+
+    "«Units» card deck" : "Колода карток «Юніти»",
+    "212 unit tokens of seven types" : "212 фішок юнітів семи типів",
+    "128 rank stars" : "128 рангових зірок",
+    "«Fraction» card deck" : "Колода карток «Фракції»",
+    "50-80 capture flags in eight different colors" : "50-80 флагів захоплення восьми різних кольорів",
+
+    "160 hexes" : "160 гексів",
+    "2 six-sided dice" : "2 шестигранні кубики",
+    "8 or 10 «cleared» tokens" : "8-10 жетонів «зачищено»",
+    "6,360 health, armor, ammo tokens" : "6,360 жетонів здров'я, броні, боєприпасів",
+    "160 stands for unit chips in eight different colors" : "160 підставок під фішки юнітів воьсми різних кольорів",
+
+    "How to start the game" : "Як почати гру",
+
+    "The map is presented in the form of hexes, where in one large one (called a «district») there are seven small ones (this is ordinary «earth»). Now let's start the game." : "Карта представлена у формі гексів, де в одному великому (він називається «район») розташовані сім маленьких (це звичайна «земля»). Тепер приступаємо до гри.",
+    "Place hexes on the board in a random order, face down. Place decks of different types (tasks, daily events (hereinafter referred to as daily), box, bunker, field headquarters) next to the field. Now each player must choose or randomly draw a state (see below) to play for. Give everyone four basic units (see below), marked with an asterisk, which will be located at the initial «Base» location - a hex with a castle of one of eight colors. Flip the hexes on the board face up. Now you can examine the campaign map and figure out your next steps to capture it." : "Розташуйте на полі гекси у довільному порядку сорочкою вгору. Розмістіть колоди різних типів (завдання, щоденні події (далі їжачок), ящик, бункер, польовий штаб) поруч із полем. Тепер кожен гравець повинен вибрати або випадково витягнути державу (див. нижче), за яку він гратиме. Роздайте кожному по чотири базові юніти (див. нижче), помічені зірочкою, які розташовуватимуться на початковій локації «База» – гекс із замком одного з восьми кольорів. Переверніть гекси на полі вгору. Тепер можете оглянути карту кампанії та прикинути ваші подальші кроки щодо її захоплення.",
+
+    "How to play cards" : "Як грати картами",
+
+    "The «Task» and «Daily» cards are picked up" : "Картки «Завдання» та «Їжачки» підіймаються",
+    "first at the start of your turn" : "першими на початку вашого ходу",
+    "before any other action is taken, and are spoken out (see note below). " : "перед тим, як зробити будь-яку іншу дію і озвучуються (див. нижче).",
+
+    "The first ones «cling» to the base unit and do not drop until it receives a rank or until you want to drop the task (see below). The second ones give a positive (hereinafter referred to as buff) or negative (hereinafter referred to as debuff) effect on all your soldiers at once and are postponed until the end. They are colored green (positive daily) and red (negative daily). Cards «Box», «Bunker», «Field Headquarters» are raised if you have captured the strategic point corresponding to it (see below)." : "Перші, «чіпляються» на базового юніту і не скидаються, поки той не отримає звання або поки Ви не захочете скинути завдання (див. нижче). Другі один раз дають позитивний (далі баф) або негативний (далі дебаф) ефект на всіх ваших солдатів разом і відкладаються у відбій. Вони пофарбовані зеленим (позитивні їжаки) та червоним кольорами (негативні їжаки). Картки «Ящик», «Бункер», «Польовий штаб» піднімаються в тому випадку, якщо Ви захопили стратегічну точку, що відповідає їй (див. нижче).",
+
+    "Note:" : "Примітка:",
+
+    "Should to note that non-basic units, that is," : "Слід зазначити, що неосновні підрозділи, тобто,",
+    "special units": "особливий юніти",
+    "and": "і",
+    "additional units": "додаткові юніти",
+    "(see below)": "(див. нижче)",
+    "can not": "не можуть",
+    "perform tasks. Also, tasks do not have to be completed or even taken from the deck during your unit's turn.": "виконувати завдання. Крім того, завдання не потрібно виконувати або навіть брати з колоди під час ходу вашого підрозділу.",
+
+    "Each" : "Кожен",
+    "basic unit" : "базовий юніт",
+    "can reset one task once without losing points (see below)." : "має можливість скинути один раз одне завдання без втрати очок (див. нижче).",
+
+    "It happens that some conditions in the cards will strongly conflict with the rules. Therefore, remember: the rules are certainly important to follow, but the text on the Daily cards is more important than them in meaning, and the text on the Task cards is more important than the previous ones." : "Буває таке, що деякі умови в картках сильно конфліктуватимуть із правилами. Тому запам'ятайте: правила безумовно важливі для дотримання, але текст на картках «Їжаків» важливіший за їх значення, а текст на картках «Завдання» важливіший за попередні.",
+
+    "Start and end of the game" : "Початок і заваршення гри",
+
+    "It is advisable to decide how long your game will last, otherwise it may last overnight. Next, decide who goes first by rolling the dice, playing rock-paper-scissors, arguing and shouting, or other methods that suit you." : "Бажано визначитися, скільки часу триватиме Ваша гра, інакше це може затягтися і на ніч. Далі вирішіть, хто ходить першим за допомогою кидка кубика, гри «Камінь-ножиці-папір», суперечками та криками чи іншими зручними Вам методами.",
+
+    "There are different ways to win:" : "Перемогти можна різними способами:",
+
+    "Destroy all enemies" : "Знищити всіх супротивників",
+    "Win at the end of the game with the maximum number of points (see below)" : "Виграти в кінці гри, набравши максимальну кількість очок (див. нижче)",
+
+    "The player who has lost all units is eliminated from the game." : "Гравець, який втратив всіх юнітів вибуває з гри.",
+
+    "Previous" : "Попередня",
+    "Next" : "Наступна",
+
+
+    "Unit's indicators and their classification" : "Показники юнітів та їх класифікація",
+    "Standard units of the «infantry» type" : "Стандартні юніти типу «піхота»",
+    "The rifleman" : "Стрілець",
+    "only owns a rifle and a knife. Has 10 points of health and armor. The ammunition is designed for 10 shots, it fires once. The maximum firing range is 8 hexes." : "володіє тільки гвинтівкою і ножем. Має 10 од. здоров'я і броні. Боєзапас розрахований на 10 пострілів, стріляє одинично. Дальність максимального пострілу 8 гексів.",
+
+    "The stormtrooper" : "Штурмовик",
+    "wields a rifle, a knife and a grenade. Has 10 points of health and armor. The ammunition is designed for 10 shots and 1 grenade throw, it fires once. The maximum firing range is 8 hexes, the maximum grenade throw range is 3 hexes. A unit cannot throw a grenade and shoot in one turn; you need to choose one thing." : "володіє гвинтівкою, ножем та гранатою. Має 10 од. здоров'я та броні. Боєзапас розрахований на 10 пострілів та на 1 кидок гранати, стріляє одинично. Дальність максимального ураження 8 гексів, дальність максимального кидка гранати 3 гекса. Юніт не може в один хід кинути гранату та зробити постріл, потрібно обрати щось одне.",
+    "The grenade can deal area damage. It will deal" : "Граната може завдавати массованого пошкодження. Вона завдасть",
+    "the full amount of damage" : "максимального пошкодження,",
+    "if it was thrown at one unit." : "якщо була використана проти одного юніта.",
+    "However, if it was used against several units, then those adjacent to the main enemy unit" : "Якщо ж, вона була використана проти кількох юнітів, то сусідні від основного ворожого юніту",
+    "will receive half the damage" : "отримають половину пошкодження",
+    "that received first." : "від пошкодження першого.",
+    "Example:" : "Приклад:",
+    "If you throw a grenade at three units (at the central one), and the die rolls 5, then the central one gets all 5 damage points, and those adjacent to it will get 3 damage points (cuz of rounded up)." : "Якщо ви кидаєте гранату в трьох юнітів (цілючись в центрального) і на кубику випадає 5, то центральний отримує всі 5 очок пошкодження, а сусідні з ним отримують 3 очок пошкодження (через округлення до більшої цифри).",
+
+    "The scout" : "Скаут",
+    "wields an auto-rifle and a knife. Has 10 points of health and armor. The ammunition is designed for 10 burst shots, using 1 shot each. The maximum firing range is 5 hexes. Has the ability to distribute damage across units if they are in the affected area." : "володіє автоматом і ножем. Має 10 од. здоров'я і броні. Боєкомплект розрахований на 10 пострілів чергами по 1 пострілу. Максимальна дальність ураження становить 5 гексів. Має здатність розподіляти шкоду між юнітиами, якщо вони знаходяться в зоні ураження.",
+    "You are fighting against a group of three enemy units. When you roll the die, you get 5. Now you have the opportunity to distribute this damage across all enemies, if they are close to each other. For example, to the first - 2 damage points, to the second - 2 damage points, to the third - 1 damage points. At the same time, you need to remember that they must be on hexes adjacent to the main enemy target, and this target itself must be on the same line with your unit." : "Ви воюєте проти групи з трьох ворожих юнітів. Коли ви кидаєте кубик, вам випадає 5. Тепер у вас є можливість розподілити цю шкоду між усіма ворогами, якщо вони знаходяться поруч один з одним. Наприклад, першому - 2 од. шкоди, другому - 2 од. шкоди, третьому - 1 од. шкоди. При цьому потрібно пам'ятати, що вони повинні знаходитися на гексах, прилеглих до основної ворожої цілі, а сама ця ціль повинна знаходитися на одній лінії з вашим юнітом.",
+
+    "Special units of the «infantry» type" : "Спеціальні юніти типу «піхота»",
+
+    "The sniper" : "Снайпер",
+    "belongs to the" : "належить до",
+    "special units." : "спеціальних юнітів.",
+    "Wields a sniper rifle and a knife. Has 10 points of health and armor. The ammunition is designed for 10 shots, fired once. Maximum firing range is 12 hexes. Has the ability to hit an opponent without rolling an accuracy die." : "Володіє снайперською гвинтівкою і ножем. Має 10 од. здоров'я та броні. Боєкомплект розрахований на 10 пострілів, стріляє одинично. Максимальна дальність ураження 12 гексів. Має здатність вразити супротивника, не кидаючи кубика на точність.",
+
+    "The machine gunner" : "Кулеметник",
+    "He wields a machine gun and a knife. Has 10 points of health and armor. The ammunition is designed for 10 burst shots, using 1 shot each. The maximum firing range is 6 hexes. Has the ability to deal double damage to one enemy or deal normal damage to several enemies." : "Володіє кулеметом та ножем. Має 10 од. здоров'я та броні. Боєзапас розрахований на 10 пострілів чергами, використовуючи 1 од. боєзапасу. Максимальна дальність ураження 6 гексів. Має здатність завдавати подвійної шкоди одному ворогу або наносити звичайну шкоду кільком ворогам.",
+    "You are fighting against a group of 3 enemy units. When you roll the die, you get 6. Now you have a choice: duplicate the number and deal 12 damage points to any unit, or deal the usual 6 damage points to all three. At the same time, you need to remember that they must be on hexes adjacent to the main enemy target, and this target itself must be on the same line as your unit." : "Ви воюєте проти групи з трьох ворожих юнітів. Коли ви кидаєте кубик, вам випадає 6. Тепер у вас є вибір: продублювати число і завдати 12 од. пошкоджень будь-якому юніту або завдати звичайних 6 од. пошкоджень усім трьом. При цьому потрібно пам'ятати, що вони повинні знаходитися на сусідніх гексах з основною ціллю, а ця ціль повинна знаходитися на одній лінії з вашим юнітом.",
+
+    "Extra units of the «infantry» type" : "Додаткові юніти типу «піхота»",
+
+    "The pilot" : "Пілот",
+    "extra units." : "додаткових юнітів.",
+    "He wields a pistol and a knife. Has 10 health points. The ammunition is designed for 1 shot, it fires once. The maximum firing range is 5 hexes. Has the ability to call an airstrike from the airfield (see below) to any point on the campaign map. The airstrike is carried out on 1 or more hexes in a row, depending on the number on rolled die. Deals 4 damage points to those hexes that were selected. After using his ability, the pilot disappears from the campaign map." : "Володіє пістолетом і ножем. Має 10 очок здоров'я. Боєприпас розрахований на 1 постріл, стріляє одинично. Максимальна дальність ураження становить 5 гексів. Має можливість викликати авіаудар з аеродрому (див. нижче) у будь-яку точку на карті кампанії. Авіаудар виконується по 1 або більше гексів у ряд, залежно від числа на кинутому кубику. Завдає 4 од. пошкодження тим гексам, які були обрані. Після використання своєї здатності пілот зникає з карти кампанії.",
+
+    "The artillery commander" : "Командир артилерії",
+    "He wields a pistol and a knife. Has 10 health points. The ammunition is designed for 1 shot, it fires once. The maximum firing range is 5 hexes. Has the ability to call an artillery strike from the artillery center (see below) to any point on the campaign map. An artillery strike inflicts 6 damage points on a hex of your choice and 4 damage points on hexes in contact with it." : "Володіє пістолетом і ножем. Має 10 очок здоров'я. Боєприпас розрахований на 1 постріл, стріляє одинично. Максимальна дальність ураження становить 5 гексів. Має можливість викликати артилерійський удар з артилерійського центру (див. нижче) у будь-яку точку на карті кампанії. Артилерійський удар завдає 6 од. пошкоджень обраному вами гексу та 4 од. пошкоджень гаксам, які з ним контактують.",
+
+
+
+    "Game components" : "Ігрові компоненти",
+
+    "Strategic points" : "Стратегічні точки",
+
+    "Boxes" : "Ящики",
+    "belong to" : "належать до",
+    "strategic points" : "стратегічних точок",
+    "There can be up to 8-10 boxes on the campaign map. If opened, the box remains open until all the remaining ones are opened. After use, a card from the corresponding deck is shuffled with the others and put back." : "На карті кампанії може бути до 8-10 ящиків. У разі відкриття коробка залишається відкритою, доки не відкриються всі інші. Після використання картку з відповідної колоди перемішують з іншими та повертають назад.",
+    "Boxes may contain cards with varying amounts of health, armor, or ammo replenishment. Also there are empty ones." : "Ящики можуть містити картки з різною кількістю запасів здоров’я, броні або боєприпасів. також є порожні.",
+
+    "Bunkers" : "Бункери",
+    "There can be up to 4 bunkers on the map. After use, a card from the corresponding deck is shuffled with the others and put back. If you are attacked while you are in the bunker, you receive a damage reduction of 3 points, but this does not apply to the grenade. The opportunity to recapture the bunker will only appear when the previous invaders move away from it on 3 hexes." : "На карті може бути до 4 бункерів. Після використання, картку з відповідної колоди перемішують з іншими та повертають назад. Якщо вас атакують, коли ви перебуваєте в бункері, ви отримуєте зменшення шкоди на 3 од., але це не стосується гранати. Можливість захопити бункер з'явиться лише тоді, коли попередні загарбники відійдуть від нього на 3 гекса.",
+    "After capturing this strategic point, during the next 3 turns," : "Після захоплення цієї стратегічної точки під час наступних кількох ходів",
+    "you must to" : "ви повинні",
+    "withdraw your unit to the distance specified above." : "відвести свого юніта на вказану вище відстань.",
+    "Bunkers may contain cards with varying amounts of health, armor, or ammo refills and negative cards that can deals damage to you. Also there are empty ones. But unlike the boxes, an extra unit can be found here, which will come under your command." : "Бункери можуть містити карти з різною кількістю поповнення запасів здоров’я, броні чи патронів, а також негативні карти, які можуть завдати вам шкоди. Також є порожні. Але на відміну від ящиків, тут можна знайти додаткового юніта, який перейде під ваше командування.",
+    "If you find an extra unit, it starts moving from any hex next to the bunker." : "Якщо ви знайдете додаткового юніта, він почне рух з будь-якого гексу поруч з бункером.",
+
+    "Field headquarters" : "Польові штаби",
+    "There can be up to 2 field headquarters on the map. After use, a card from the corresponding deck is shuffled with the others and put back. If you are attacked while you are in the Field headquarters, you receive a damage reduction of 1 points, but this does not apply to the grenade The opportunity to capture the field headquarters again will appear only when the previous invaders move away from it on 6 hexes.": "На карті може бути до 2 польових штабів. Після використання картку з відповідної колоди перемішують з іншими та повертають назад. Якщо вас атакують, коли ви перебуваєте в польовому штабі, ви отримуєте зменшення шкоди на 1 од., але це не стосується гранати. Можливість знову захопити польовий штаб з’явиться лише тоді, коли попередні загарбники відійдуть від нього на 6 гексів.",
+    "Field headquarters may contain cards with varying amounts of health, armor, or ammo refills and negative cards that can deals damage to you. Also there are empty ones. But unlike the boxes and bunkers, a special unit can be found here, which will come under your command.": "Польові штаби можуть містити карти з різною кількістю поповнення запасів здоров’я, броні чи патронів, а також негативні карти, які можуть завдати вам шкоди. Також є порожні. Але на відміну від ящиків та бункерів, тут можна знайти спеціального юніта, який перейде під ваше командування.",
+    "If you find a special unit, it starts moving from your Base.": "Якщо ви знайдете спеціального юніта, він почне рух з вашої Бази.",
+
+    "Airfield" : "Аеродром",
+    "is belong to" : "належить до",
+    "special strategic points" : "спеціальної стратегічної точки",
+    "There can only be 1 on the map. In order to open it, you will need to «investigate» a secret texture marked with a question mark, which can be located in any given location. The airfield can be captured and its opening will become known to all players. The pilot needs to get to it, where he can use his ability." : "На карті може бути лише 1. Щоб відкрити його, вам потрібно буде «дослідити» секретну текстуру, позначену знаком питання, яка може бути розташована в будь-якому місці. Аеродром можна захопити, і про його відкриття стане відомо всім гравцям. Пілоту потрібно дістатися до нього, де він зможе застосувати свою здібність.",
+
+    "Artillery center" : "Артилерійський центр",
+    "There can only be 1 on the map. In order to open it, you will need to «investigate» a secret texture marked with a question mark, which can be located in any given location. The artillery center can be captured and its opening will become known to all players. The artillery commander needs to get to it, where he can use his ability." : "На карті може бути лише 1. Щоб відкрити його, вам потрібно буде «дослідити» секретну текстуру, позначену знаком питання, яка може знаходитися в будь-якому місці. Артилерійський центр можна захопити, і про його відкриття стане відомо всім гравцям. Командиру артилерії потрібно дістатися до нього, де він зможе застосувати свою здатність.",
+
+    "Natural objects" : "Природні об'єкти",
+
+    "Trees" : "Дерева",
+    "These types of locations are" : "Ці типи локацій є",
+    "natural objects" : "природними об’єктами",
+    "They can be located anywhere on the map. If you were attacked while you were in the forests, the enemy receives a reduction in accuracy by 2 points (does not apply to the sniper). Moving along them is a maximum of 1 hex. Need to move carefully so you should not be noticed you know." : "Їх можна розташувати будь-де на карті. Якщо на вас напали, коли ви були в лісі, противник отримує зниження влучності на 2 од. (не поширюється на снайпера). Рухатись по ним можна тільки по 1 гексу. Потрібно рухатися обережно, щоб вас не помітили.",
+
+    "Water heks" : "Водні гекси",
+    "They can be located anywhere on the map. If you cross these places in the frosty hour (cuz the water freezing) there is no loss of moves. If you cross them in warm weather, then when descending into the water and when ascending to the shore, you lose all the remaining moves." : "Їх можна розташувати будь-де на карті. Якщо перетинати ці місця в морозну пору року (через замерзання води) втрат ходів не буде. Якщо ви перетинаєте їх в теплу пору року (див. примітку нижче), то при спуску у воду і при підйомі на берег ви втрачаєте всі ходи, що залишилися.",
+    "You are standing 1 hex away from the water. If 4 is rolled on the die, you will take 2 steps (an empty hex and a hex with water) and stop walking until the next turn. The same is when you go ashore." : "Ви стоїте на відстані 1 гексу від води. Якщо на кубику випало 4, ви зробите 2 кроки (порожній гекс і гекс з водою) і зупинитесь до наступного ходу. Те саме, коли виходите на берег.",
+    "If you will do the same thing but in frosty time, you just do your 4 steps from 4 rolled on the die." : "Якщо ви будете робити те ж саме, але в морозну пору, ви просто зробите свої 4 кроки з 4 викинутих на кубику.",
+
+    "Mountains or hills" : "Гори чи пагорби",
+    "They can be located anywhere on the map. You get an increase in firing range by 1 unit if you stand on them. In winter, it is not possible to walk in the mountains, because mountains are harsh places. If winter finds your unit on the mountain, it immediately dies. In case when you crossing a mountain ridge, you lose all remaining steps (see below). But if you move along a mountain range, then there is no loss of steps while moving." : "Їх можна розташувати будь-де на карті. Ви отримуєте збільшення дальності ураження на 1 од., якщо ви стоїте на них. Взимку не можна ходити в гори, тому що гори суворі місця. Якщо зима застає вашого юніта на горі, він негайно помирає. Якщо ви перетинаєте гірський хребет, ви втрачаєте всі кроки (див. нижче). Але якщо рухатися по гірському масиву вздовж, то втрати кроків при русі немає.",
+    "You are standing 1 hex away from the mountain. If 4 is rolled on the die, you will take 2 steps (an empty hex and a hex with a hill) and stop walking until your next turn. The same is when you go down." : "Ви стоїте за 1 гекс від гори. Якщо на кубику випало 4, ви зробите 2 кроки (порожній гекс і гекс з пагорбом) і зупинитесь до наступного ходу. Те саме, коли ви спускаєтесь.",
+
+    "Unlinked objects" : "Об'єкти без прив'язки",
+    "Base" : "База",
+    "This type of texture does not belong to any of the previously ones. This is your faction's starting location. From here all your units begin to move. The base cannot be captured, it is unplayable zone to other players. However, units located on this territory can be attacked." : "Цей тип текстури не відноситься ні до одного з попередніх. Це початкове розташування вашої фракції. Звідси всі ваші юніти починають рух. Базу неможливо захопити, вона не є ігровою зоною для інших гравців. Однак підрозділи, розташовані на цій території, можуть бути атаковані.",
+
+
+
+    "The game has a number of countries for which the player can play. At the beginning of the game, they are given out randomly or chosen at will, but we still recommend the first option. Each fraction has two passive skills that are always active. Study them carefully and apply them wisely." : "У грі є ряд країн, за які гравець може грати. На початку гри вони видаються випадковим чином або вибираються за бажанням, але ми все ж рекомендуємо перший варіант. Кожна фракція має дві пасивні навички, які завжди активні. Уважно вивчіть їх і застосовуйте з розумом.",
+
+    "France" : "Франція",
+    "Birth of Napoleon" : "Народження Наполеона",
+    "Any standard unit can become an artillery commander by reaching the artillery center and using their ability on the next turn." : "Будь-який стандартний юніт може стати командиром артилерії, досягнувши артилерійського центру та використавши свої здібності на наступному ході.",
+    "White flag" : "Білий флаг",
+    "On 40 turn, France is have to transfer all its territories except the Base under German control." : "На 40-му ході Франція повинна передати всі свої території, крім бази, під контроль Німеччини.",
+
+    "Germany" : "Німеччина",
+    "Blitzkrieg" : "Бліцкріг",
+    "The movement die is rolled 2 times." : "Кубик на переміщення кидається 2 рази.",
+    "Berlin capitulation" : "Капітуляція Берліна",
+    "On 45 turn, all German territories except the base become neutral." : "На 45-му ході всі німецькі території, окрім бази, становляться нейтральними.",
+
+    "England" : "Англія",
+    "Apple pie" : "Англійський пиріг",
+    "All health restore cards gives a maximum of points." : "Усі картки поповнення здоров'я дають максимальну кількість одиниць.",
+    "Irish Republican Army" : "Ірландська Республіканська Армія",
+    "For the final scoring of territories, 2 districts (12 hexes) are not considered English." : "При фінальному підрахунку територій, 2 райони (12 гексів) не рахуються англійськими.",
+
+    "Italy" : "Італія",
+    "Papal whim" : "Папська примха",
+    "You can declare a Crusade 4 times per game lasting 5 circles." : "Ви можете оголосити Хрестовий похід 4 рази за гру тривалістю 5 кіл.",
+    "Mafia share" : "Доля мафії",
+    "All cards for restoring ammunition are less in half, but not less than 1 point." : "Всі картки поповнення боєкомплекту зменшені в половину, але не менша 1-єї од."
 }

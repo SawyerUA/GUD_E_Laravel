@@ -9,8 +9,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="rules text-center mb-5">Фракции</h2>
-                    <p>В игре присутствует ряд стран, за которые игрок может играть. В начале игры они выдаются в случайном порядке или выбираются по желанию, но мы, все-таки, рекомендуем первый вариант. У каждого государства есть две особенности, которые всегда активны. Внимательно изучите их и грамотно применяйте.</p>
+                    <h2 class="rules text-center mb-5">{{__('Fractions')}}</h2>
+                    <p>{{__('The game has a number of countries for which the player can play. At the beginning of the game, they are given out randomly or chosen at will, but we still recommend the first option. Each fraction has two passive skills that are always active. Study them carefully and apply them wisely.')}}</p>
                 </div>
             </div>
             <div class="row row-cols-1 row-cols-md-2 row-cols-xxl-4">
@@ -18,9 +18,9 @@
                     <div class="card" style="width: 18rem;">
                         <img src="{{asset('img/countries/france.png')}}" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title text-center">Франция</h5>
-                            <p class="card-text"><u class="fst-italic">Рождение Наполеона</u>: Любой стартовый юнит может стать командиром артиллерии, добравшись до артиллерийского центра и использовать свою особенность на следующем ходу.<br>
-                                <u class="fst-italic">Белый флаг</u>: На 40 ходу Франция обязана передать все территории, кроме Базы, под контроль Германии.</p>
+                            <h5 class="card-title text-center">{{__('France')}}</h5>
+                            <p class="card-text"><u class="fst-italic">{{__('Birth of Napoleon')}}</u>: {{__('Any standard unit can become an artillery commander by reaching the artillery center and using their ability on the next turn.')}}</p>
+                            <p><u class="fst-italic">{{__('White flag')}}</u>: {{__('On 40 turn, France is have to transfer all its territories except the Base under German control.')}}</p>
                         </div>
                     </div>
                 </div>
@@ -28,9 +28,9 @@
                     <div class="card" style="width: 18rem;">
                         <img src="{{asset('img/countries/germany.png')}}" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title text-center">Германия</h5>
-                            <p class="card-text"><u class="fst-italic">Блицкриг</u>: Кубик на перемещение бросается 2 раза.<br>
-                                <u class="fst-italic">Капитуляция Берлина</u>: На 45 ходу все территории Германии, кроме Базы, становятся нейтральными.</p>
+                            <h5 class="card-title text-center">{{__('Germany')}}</h5>
+                            <p class="card-text"><u class="fst-italic">{{__('Blitzkrieg')}}</u>: {{__('The movement die is rolled 2 times.')}}</p>
+                            <p><u class="fst-italic">{{__('Berlin capitulation')}}</u>: {{__('On 45 turn, all German territories except the base become neutral.')}}</p>
                         </div>
                     </div>
                 </div>
@@ -38,9 +38,9 @@
                     <div class="card" style="width: 18rem;">
                         <img src="{{asset('img/countries/england.png')}}" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title text-center">Англия</h5>
-                            <p class="card-text"><u class="fst-italic">Яблочный пирог</u>: Все карточки на пополнение здоровья восстанавливают максимум единиц.<br>
-                                <u class="fst-italic">Ирландская Революционная Армия</u>: При финальном подсчете очков за территории, 2 района не считаются английскими.</p>
+                            <h5 class="card-title text-center">{{__('England')}}</h5>
+                            <p class="card-text"><u class="fst-italic">{{__('Apple pie')}}</u>: {{__('All health restore cards gives a maximum of points.')}}</p>
+                            <p><u class="fst-italic">{{__('Irish Republican Army')}}</u>: {{__('For the final scoring of territories, 2 districts (12 hexes) are not considered English.')}}</p>
                         </div>
                     </div>
                 </div>
@@ -48,9 +48,9 @@
                     <div class="card" style="width: 18rem;">
                         <img src="{{asset('img/countries/italy.png')}}" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title text-center">Италия</h5>
-                            <p class="card-text"><u class="fst-italic">Папская прихоть</u>: Можно объявить Крестовый поход 4 раза за игру длительностью в 5 фаз.<br>
-                                <u class="fst-italic">Доля мафиози</u>: Все карточки на пополнение боеприпасов срезаны вдвое, но не меньше 1 единицы.</p>
+                            <h5 class="card-title text-center">{{__('Italy')}}</h5>
+                            <p class="card-text"><u class="fst-italic">{{__('Papal whim')}}</u>: {{__('You can declare a Crusade 4 times per game lasting 5 circles.')}}</p>
+                            <p><u class="fst-italic">{{__('Mafia share')}}</u>: {{__('All cards for restoring ammunition are less in half, but not less than 1 point.')}}</p>
                         </div>
                     </div>
                 </div>

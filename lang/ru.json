@@ -82,5 +82,193 @@
 
     "Posts from: " : "Статьи из категории:",
 
-    "Found posts" : "Найденные статьи"
+    "Found posts" : "Найденные статьи",
+
+    "Introduction" : "Вступление",
+    "The game invites you to plunge into a randomly developing alternative history of the World War, in which not only tactics and strategy will play a role, but also the generation of the campaign map itself. The events of the game will take place in randomly generated locations, where different countries of the world will enter the battle. Your tasks will include: destroy all enemies and/or achieve victory by any other means." : "Игра предлагает окунуться в случайно развивающуюся альтернативную историю Мировой войны, в которой будет играть роль не только тактика и стратегия, но и генерация самой карты кампании. События игры будут проходить в произвольно генерируемых локациях, на которых в битву вступят разные страны мира. В Ваши задачи будет входить: уничтожить всех врагов и/или достичь победы любыми другими способами.",
+    "The game includes:" : "В набор входит:",
+    "«Tasks» card deck" : "Колода карточек «Задания»",
+    "«Daily events» card deck" : "Колода карточек «Ежедневные события»",
+    "«Box» card deck" : "Колода карточек «Ящик»",
+    "«Bunker» card deck" : "Колода карточек «Бункер»",
+    "«Field headquarters» card deck" : "Колода карточек «Полевой штаб»",
+
+    "«Units» card deck" : "Колода карточек «Юниты»",
+    "212 unit tokens of seven types" : "212 фишек юнитов семи типов",
+    "128 rank stars" : "128 ранговых звезд",
+    "«Fraction» card deck" : "Колода карточек «Фракции»",
+    "50-80 capture flags in eight different colors" : "50-80 флажков захвата восьми разных цветов",
+
+    "160 hexes" : "160 гексов",
+    "2 six-sided dice" : "2 шестигранных кубика",
+    "8 or 10 «cleared» tokens" : "8 или 10 жетонов «зачищено»",
+    "6,360 health, armor, ammo tokens" : "6 360 жетонов здоровья, брони, боеприпасов",
+    "160 stands for unit chips in eight different colors" : "160 подставок под фишки юнитов восьми разных цветов",
+
+    "How to start the game" : "Как начать игру",
+
+    "The map is presented in the form of hexes, where in one large one (called a «district») there are seven small ones (this is ordinary «earth»). Now let's start the game.": "Карта представлена в форме гексов, где в одном большом (он называется «район») расположены семь маленьких (это обычная «земля»). Теперь приступаем к игре.",
+    "Place hexes on the board in a random order, face down. Place decks of different types (tasks, daily events (hereinafter referred to as daily), box, bunker, field headquarters) next to the field. Now each player must choose or randomly draw a state (see below) to play for. Give everyone four basic units (see below), marked with an asterisk, which will be located at the initial «Base» location - a hex with a castle of one of eight colors. Flip the hexes on the board face up. Now you can examine the campaign map and figure out your next steps to capture it." : "Расположите на поле гексы в произвольном порядке рубашкой вверх. Разместите колоды разных типов (задания, ежедневные события (далее ёжик), ящик, бункер, полевой штаб) рядом с полем. Теперь каждый игрок должен выбрать или случайно вытянуть государство (см. ниже), за которое он будет играть. Раздайте каждому по четыре базовых юнита (см. ниже), помеченных звездочкой, которые будут располагаться на изначальной локации «База» – гекс с замком одного из восьми цветов. Переверните гексы на поле лицом вверх. Теперь можете осмотреть карту кампании и прикинуть ваши дальнейшие шаги по её захвату.",
+
+    "How to play cards" : "Как играть картами",
+
+    "The «Task» and «Daily» cards are picked up" : "Карточки «Задания» и «Ёжики» поднимаются",
+    "first at the start of your turn" : "первыми в начале вашего хода",
+    "before any other action is taken, and are spoken out (see note below). " : "перед тем как сделать любое другое действие, и озвучиваются (примеч. см. ниже)",
+
+    "The first ones «cling» to the base unit and do not drop until it receives a rank or until you want to drop the task (see below). The second ones give a positive (hereinafter referred to as buff) or negative (hereinafter referred to as debuff) effect on all your soldiers at once and are postponed until the end. They are colored green (positive daily) and red (negative daily). Cards «Box», «Bunker», «Field Headquarters» are raised if you have captured the strategic point corresponding to it (see below)." : "Первые, «цепляются» на базового юнита и не скидываются, пока тот не получит звание или пока Вы не захотите скинуть задание (см. ниже). Вторые единожды дают положительный (далее баф) или отрицательный (далее дебаф) эффект на всех ваших солдат разом и откладываются в отбой. Они окрашены зеленым (положительные ежи) и красным цветами (отрицательные ежи). Карточки «Ящик», «Бункер», «Полевой штаб» поднимаются в том случае, если Вы захватили стратегическую точку, соответствующую ей (см. ниже).",
+
+    "Note:" : "Примечание:",
+
+    "Should to note that non-basic units, that is," : "Следует отметить, что неосновные подразделения, то есть,",
+    "special units": "особые юниты",
+    "and": "и",
+    "additional units": "дополнительные юниты",
+    "(see below)": "(см. ниже)",
+    "can not": "не могут",
+    "perform tasks. Also, tasks do not have to be completed or even taken from the deck during your unit's turn.": "выполнять задание. Кроме того, задание не нужно выполнять или даже брать из колоды во время хода вашего подразденеия.",
+
+    "Each" : "Каждый",
+    "basic unit" : "базовий юнит",
+    "can reset one task once without losing points (see below)." : "имеет возможность сбросить один раз одно задание без потери очков (см. ниже).",
+
+    "It happens that some conditions in the cards will strongly conflict with the rules. Therefore, remember: the rules are certainly important to follow, but the text on the Daily cards is more important than them in meaning, and the text on the Task cards is more important than the previous ones." : "Бывает такое, что некоторые условия в карточках будут сильно конфликтовать с правилами. Потому запомните: правила безусловно важны для соблюдения, но текст на карточках «Ежей» важнее их по значению, а текст на карточках «Задания» важнее предыдущих.",
+
+    "Start and end of the game" : "Начало и завершение игры",
+
+    "It is advisable to decide how long your game will last, otherwise it may last overnight. Next, decide who goes first by rolling the dice, playing rock-paper-scissors, arguing and shouting, or other methods that suit you." : "Желательно определиться, сколько по времени будет длиться Ваша игра, иначе это может затянуться и на ночь. Далее решите, кто ходит первым с помощью броска кубика, игры «Камень-ножницы-бумага», спорами и криками или другими удобными Вам методами.",
+
+    "There are different ways to win:" : "Победить можно разными способами:",
+
+    "Destroy all enemies" : "Уничтожить всех противников",
+    "Win at the end of the game with the maximum number of points (see below)" : "Выиграть в конце игры по максимальному набранному числу очков (см. ниже)",
+
+    "The player who has lost all units is eliminated from the game." : "Игрок, который потерял всех юнитов выбывает из игры.",
+
+    "Previous" : "Пред.",
+    "Next" : "След.",
+
+
+
+    "Unit's indicators and their classification" : "Показатели юнитов и их классификация",
+    "Standard units of the «infantry» type" : "Стандартные юниты типа «пехота»",
+    "The rifleman" : "Стрелок",
+    "only owns a rifle and a knife. Has 10 points of health and armor. The ammunition is designed for 10 shots, it fires once. The maximum firing range is 8 hexes." : "владеет только винтовкой и ножом. Имеет 10 ед. здоровья и брони. Боезапас рассчитан на 10 выстрелов, стреляет единично. Дальность максимальной стрельбы 8 гексов.",
+
+    "The stormtrooper" : "Штурмовик",
+    "wields a rifle, a knife and a grenade. Has 10 points of health and armor. The ammunition is designed for 10 shots and 1 grenade throw, it fires once. The maximum firing range is 8 hexes, the maximum grenade throw range is 3 hexes. A unit cannot throw a grenade and shoot in one turn; you need to choose one thing." : "владеет винтовкой, ножом и гранатой. Имеет 10 ед. здоровья и брони. Боезапас рассчитан на 10 выстрелов и на 1 бросок гранаты, стреляет единично. Дальность максимальной стрельбы 8 гексов, дальность максимального броска гранаты 3 гекса. Юнит не может в один ход кинуть гранату и выстрелить, нужно выбрать что-то одно.",
+    "The grenade can deal area damage. It will deal" : "Граната может наносить урон по площади. Она нанесет",
+    "the full amount of damage" : "полное количество урона,",
+    "if it was thrown at one unit." : "если была использована против одного юнита.",
+    "However, if it was used against several units, then those adjacent to the main enemy unit" : "Если же, она была использована против нескольких юнитов, то соседние от основного вражеского юнита",
+    "will receive half the damage" : "получат половину от урона,",
+    "that received first." : "который  получил первый.",
+    "Example:" : "Пример:",
+    "If you throw a grenade at three units (at the central one), and the die rolls 5, then the central one gets all 5 damage points, and those adjacent to it will get 3 damage points (cuz of rounded up)." : "Если Вы кинули гранату в трех юнитов (целясь в центрального) и на кубике выпало 5, то центральный получает все 5 ед. урона, а соседние с ним 3 ед. урона (из-за округления в большую сторону).",
+
+    "The scout" : "Скаут",
+    "wields an auto-rifle and a knife. Has 10 points of health and armor. The ammunition is designed for 10 burst shots, using 1 shot each. The maximum firing range is 5 hexes. Has the ability to distribute damage across units if they are in the affected area." : "владеет автоматом и ножом. Имеет 10 ед. здоровья и брони. Боекомплект рассчитан на 10 выстрелов очередями по 1 выстрелу. Максимальная дальность стрельбы составляет 5 гексов. Обладает способностью распределять урон между юнитами, если они находятся в зоне поражения.",
+    "You are fighting against a group of three enemy units. When you roll the die, you get 5. Now you have the opportunity to distribute this damage across all enemies, if they are close to each other. For example, to the first - 2 damage points, to the second - 2 damage points, to the third - 1 damage points. At the same time, you need to remember that they must be on hexes adjacent to the main enemy target, and this target itself must be on the same line with your unit." : "Вы сражаетесь против группы из трех вражеских юнитов. Когда вы бросаете кубик, вам выпадает 5. Теперь у вас есть возможность распределить этот урон между всеми врагами, если они находятся рядом друг с другом. Например, первому – 2 ед. урона, второму – 2 ед. урона, третьему – 1 ед. урона. При этом следует помнить, что они должны находиться на гексах, прилегающих к основной цели, а сама эта цель должна находиться на одной линии с вашим юнитом.",
+
+
+    "Special units of the «infantry» type" : "Специальные юниты типа «пехота»",
+
+    "The sniper" : "Снайпер",
+    "belongs to the" : "относится к",
+    "special units." : "специальным юнитам.",
+    "Wields a sniper rifle and a knife. Has 10 points of health and armor. The ammunition is designed for 10 shots, fired once. Maximum firing range is 12 hexes. Has the ability to hit an opponent without rolling an accuracy die." : "Владеет снайперской винтовкой и ножом. Имеет 10 ед. здоровья и брони. Боекомплект рассчитан на 10 выстрелов, стрелят единично. Максимальная дальность стрельбы 12 гексов. Имеет способность поразить противника, не бросая кубик на точность.",
+
+    "The machine gunner" : "Пулемётчик",
+    "He wields a machine gun and a knife. Has 10 points of health and armor. The ammunition is designed for 10 burst shots, using 1 shot each. The maximum firing range is 6 hexes. Has the ability to deal double damage to one enemy or deal normal damage to several enemies." : "Владеет пулеметом и ножом. Имеет 10 ед. здоровья и брони. Боезапас рассчитан на 10 выстрелов очередями, используя 1 ед. боезапаса. Максимальная дальность стрельбы 6 гексов. Имеет способность наносить двойной урон одному врагу или наносить обычный урон нескольким врагам.",
+    "You are fighting against a group of 3 enemy units. When you roll the die, you get 6. Now you have a choice: duplicate the number and deal 12 damage points to any unit, or deal the usual 6 damage points to all three. At the same time, you need to remember that they must be on hexes adjacent to the main enemy target, and this target itself must be on the same line as your unit." : "Вы сражаетесь против группы из трех вражеских юнитов. Когда вы бросаете кубик, вам выпадает 6. Теперь у вас есть выбор: продублировать число и нанести 12 ед. урона любому юниту или нанести обычные 6 ед. урона всем троим. При этом нужно помнить, что они должны находиться на соседних гексах с основной целью, а сама эта цель должна находиться на одной линии с вашим юнитом.",
+
+    "Extra units of the «infantry» type" : "Дополнительные юниты типа «пехота»",
+
+    "The pilot" : "Пилот",
+    "extra units." : "дополнительным юнитам.",
+    "He wields a pistol and a knife. Has 10 health points. The ammunition is designed for 1 shot, it fires once. The maximum firing range is 5 hexes. Has the ability to call an airstrike from the airfield (see below) to any point on the campaign map. The airstrike is carried out on 1 or more hexes in a row, depending on the number on rolled die. Deals 4 damage points to those hexes that were selected. After using his ability, the pilot disappears from the campaign map." : "Он владеет пистолетом и ножом. Имеет 10 ед. здоровья. Боезапас рассчитан на 1 выстрел, стреляет единично. Дальность максимальной стрельбы 5 гексов. Имеет способность призвать с аэродрома (см. ниже) авиаудар в любую точку на карте кампании. Авиаудар наносится на 1 или более гексов в ряд, в зависимости от числа, выпавшего после броска кубика. Наносит 4 ед. урона по тем гексам, которые были выбраны. После использования своей особенности пилот пропадает с карты кампании.",
+
+    "The artillery commander" : "Командир артилерии",
+    "He wields a pistol and a knife. Has 10 health points. The ammunition is designed for 1 shot, it fires once. The maximum firing range is 5 hexes. Has the ability to call an artillery strike from the artillery center (see below) to any point on the campaign map. An artillery strike inflicts 6 damage points on a hex of your choice and 4 damage points on hexes in contact with it." : "Он владеет пистолетом и ножом. Имеет 10 очков здоровья. Боекомплект рассчитан на 1 выстрел, выстреливается один раз. Максимальная дальность стрельбы — 5 гексов. Имеет возможность вызвать артиллерийский удар из артцентра (см. ниже) в любую точку на карте кампании. Артиллерийский удар наносит 6 ед. урона выбранному вами гексу и 4 ед. урона гексам, соприкасающимся с ним.",
+
+
+
+    "Game components" : "Игровые компоненты",
+
+    "Strategic points" : "Стратегические точки",
+
+    "Boxes" : "Ящики",
+    "belong to" : "относятся к",
+    "strategic points" : "стратегическим точкам",
+    "There can be up to 8-10 boxes on the campaign map. If opened, the box remains open until all the remaining ones are opened. After use, a card from the corresponding deck is shuffled with the others and put back." : "На карте кампании может быть до 8-10 ящиков. Если открыть коробку, она остается открытой до тех пор, пока не будут открыты все оставшиеся. После использования карта из соответствующей колоды перемешивается с остальными и кладется обратно.",
+    "Boxes may contain cards with varying amounts of health, armor, or ammo replenishment. Also there are empty ones." : "В ящиках могут находиться карты с разным количеством здоровья, брони или боеприпасов. Также есть пустые.",
+
+    "Bunkers" : "Бункеры",
+    "There can be up to 4 bunkers on the map. After use, a card from the corresponding deck is shuffled with the others and put back. If you are attacked while you are in the bunker, you receive a damage reduction of 3 points, but this does not apply to the grenade. The opportunity to recapture the bunker will only appear when the previous invaders move away from it on 3 hexes." : "На карте может быть до 4 бункеров. После использования карта из соответствующей колоды перемешивается с остальными и кладется обратно. Если на вас напали, пока вы находитесь в бункере, вы получаете снижение урона на 3 ед., но на гранату это не распространяется. Возможность отбить бункер появится только тогда, когда предыдущие захватчики отойдут от него на 3 гекса.",
+    "After capturing this strategic point, during the next 3 turns," : "После захвата этой стратегической точки в течение следующих 3 ходов",
+    "you must to" : "вы должны",
+    "withdraw your unit to the distance specified above." : "отвести своего юнита на указанное выше расстояние.",
+    "Bunkers may contain cards with varying amounts of health, armor, or ammo refills and negative cards that can deals damage to you. Also there are empty ones. But unlike the boxes, an extra unit can be found here, which will come under your command." : "Бункеры могут содержать карты с разным количеством здоровья, брони или пополнения боеприпасов, а также отрицательные карты, которые могут нанести вам урон. Также есть пустые. Но в отличие от ящиков здесь можно найти дополнительного юнита, который перейдет под ваше командование.",
+    "If you find an extra unit, it starts moving from any hex next to the bunker." : "Если вы обнаружите дополнительного юнита, он начнет двигаться из любого гекса рядом с бункером.",
+
+    "Field headquarters" : "Полевые штабы",
+    "There can be up to 2 field headquarters on the map. After use, a card from the corresponding deck is shuffled with the others and put back. If you are attacked while you are in the Field headquarters, you receive a damage reduction of 1 points, but this does not apply to the grenade The opportunity to capture the field headquarters again will appear only when the previous invaders move away from it on 6 hexes.": "На карте может быть до 2 полевых штабов. После использования карта из соответствующей колоды перемешивается с остальными и кладется обратно. Если на вас напали, пока вы находитесь в Полевом штабе, вы получаете снижение урона на 1 ед., но это не касается гранаты. Возможность снова захватить полевой штаб появится только тогда, когда предыдущие захватчики отойдут от него на 6 гексов.",
+    "Field headquarters may contain cards with varying amounts of health, armor, or ammo refills and negative cards that can deals damage to you. Also there are empty ones. But unlike the boxes and bunkers, a special unit can be found here, which will come under your command.": "Полевой штаб может содержать карты с разным количеством здоровья, брони или пополнения боеприпасов, а также отрицательные карты, которые могут нанести вам урон. Также есть пустые. Но в отличие от ящиков и бункеров здесь можно найти специального юнита, который перейдет под ваше командование.",
+    "If you find a special unit, it starts moving from your Base.": "Если вы обнаружите специального юнита, он начнет двигаться с вашей Базы.",
+
+    "Airfield" : "Аэродром",
+    "is belong to" : "относится к",
+    "special strategic points" : "специальным стратегическим точкам",
+    "There can only be 1 on the map. In order to open it, you will need to «investigate» a secret texture marked with a question mark, which can be located in any given location. The airfield can be captured and its opening will become known to all players. The pilot needs to get to it, where he can use his ability." : "На карте может быть только 1. Для того, чтобы открыть его, вам нужно будет «исследовать» секретную текстуру, отмеченную знаком вопроса, которая может находиться в любой заданной локации. Аэродром можно захватить и его открытие станет известно всем игрокам. Пилоту необходимо добраться до него, где он сможет применить свои способности.",
+
+    "Artillery center" : "Артиллерийский центр",
+    "There can only be 1 on the map. In order to open it, you will need to «investigate» a secret texture marked with a question mark, which can be located in any given location. The artillery center can be captured and its opening will become known to all players. The artillery commander needs to get to it, where he can use his ability." : "На карте может быть только 1. Для того, чтобы открыть его, вам нужно будет «исследовать» секретную текстуру, отмеченную знаком вопроса, которая может находиться в любой заданной локации. Аэродром можно захватить и его открытие станет известно всем игрокам. Командиру артиллерии необходимо добраться до него, где он сможет применить свои способности.",
+
+    "Natural objects" : "Природные объекты",
+
+    "Trees" : "Деревья",
+    "These types of locations are" : "Подобного рода локации являются",
+    "natural objects" : "природными объектами",
+    "They can be located anywhere on the map. If you were attacked while you were in the forests, the enemy receives a reduction in accuracy by 2 points (does not apply to the sniper). Moving along them is a maximum of 1 hex. Need to move carefully so you should not be noticed you know." : "Они могут находиться в любом месте карты. Если на вас напали, пока вы находились в лесу, противник получает снижение точности на 2 ед. (не распространяется на снайпера). Перемещение по ним происходит максимум на 1 гекс. Нужно двигаться осторожно, чтобы вас не заметили.",
+
+    "Water heks" : "Водные гексы",
+    "They can be located anywhere on the map. If you cross these places in the frosty hour (cuz the water freezing) there is no loss of moves. If you cross them in warm weather, then when descending into the water and when ascending to the shore, you lose all the remaining moves." : "Они могут находиться в любом месте карты. Если пересечь эти места в морозный час (поскольку вода замерзает) потери хода не будет. Если пересечь их в теплую погоду, то при спуске в воду и при подъеме на берег вы потеряете все оставшиеся ходы.",
+    "You are standing 1 hex away from the water. If 4 is rolled on the die, you will take 2 steps (an empty hex and a hex with water) and stop walking until the next turn. The same is when you go ashore." : "Вы стоите в 1 гексе от воды. Если на кубике выпало 4, вы сделаете 2 шага (пустой гекс и гекс с водой) и остановитесь до следующего хода. То же самое происходит, когда вы выходите на берег.",
+    "If you will do the same thing but in frosty time, you just do your 4 steps from 4 rolled on the die." : "Если вы будете делать то же самое, но в морозное время, вы просто сделаете свои 4 шага из 4, выпавших на кубике.",
+
+    "Mountains or hills" : "Горы или холмы",
+    "They can be located anywhere on the map. You get an increase in firing range by 1 unit if you stand on them. In winter, it is not possible to walk in the mountains, because mountains are harsh places. If winter finds your unit on the mountain, it immediately dies. In case when you crossing a mountain ridge, you lose all remaining steps (see below). But if you move along a mountain range, then there is no loss of steps while moving." : "Они могут находиться в любом месте карты. Вы получаете увеличение дальности стрельбы на 1 ед., если встанете на них. Зимой по горам ходить невозможно, потому что горы – суровые места. Если зима застанет вашего юнита на горе, он тут же погибает. Если вы пересекаете горный хребет, вы теряете все оставшиеся шаги (см. ниже). Но если двигаться по горному массиву, то потери шагов при движении не происходит.",
+    "You are standing 1 hex away from the mountain. If 4 is rolled on the die, you will take 2 steps (an empty hex and a hex with a hill) and stop walking until your next turn. The same is when you go down." : "Вы стоите в 1 гексе от горы. Если на кубике выпало 4, вы сделаете 2 шага (пустой гекс и гекс с холмом) и оставновитесь до следующего хода. То же самое происходит, когда вы спускаетесь вниз.",
+
+    "Unlinked objects" : "Объекти без привязки",
+    "Base" : "База",
+    "This type of texture does not belong to any of the previously ones. This is your faction's starting location. From here all your units begin to move. The base cannot be captured, it is unplayable zone to other players. However, units located on this territory can be attacked." : "Этот тип текстуры не принадлежит ни к одному из предыдущих. Это стартовая локация вашей фракции. Отсюда все ваши юниты начнут двигаться. Базу невозможно захватить, это неигровая зона для других игроков. Однако юниты, находящиеся на этой территории, могут быть атакованы.",
+
+
+
+    "The game has a number of countries for which the player can play. At the beginning of the game, they are given out randomly or chosen at will, but we still recommend the first option. Each fraction has two passive skills that are always active. Study them carefully and apply them wisely." : "В игре есть ряд стран, за которые игрок может играть. В начале игры они выдаются случайным образом или выбираются по желанию, но мы все же рекомендуем первый вариант. Каждая фракция имеет два пассивных навыка, которые всегда активны. Внимательно изучите их и применяйте с умом.",
+
+    "France" : "Франция",
+    "Birth of Napoleon" : "Рождение Наполеона",
+    "Any standard unit can become an artillery commander by reaching the artillery center and using their ability on the next turn." : "Любой стандартный юнит может стать командиром артиллерии, достигнув артиллерийского центра и использовав свои способности на следующем ходу.",
+    "White flag" : "Белый флаг",
+    "On 40 turn, France is have to transfer all its territories except the Base under German control." : "На 40-ом ходе Франция должна передать все свои территории, кроме базы, под контроль Германии.",
+
+    "Germany" : "Германия",
+    "Blitzkrieg" : "Блицкриг",
+    "The movement die is rolled 2 times." : "Кубик на перемещение кидается 2 раза.",
+    "Berlin capitulation" : "Капитуляция Берлина",
+    "On 45 turn, all German territories except the base become neutral." : "На 45-ом ходу все немецкие территории становятся нейтральными.",
+
+    "England" : "Англия",
+    "Apple pie" : "Английский пирог",
+    "All health restore cards gives a maximum of points." : "Все карточки восстановления здоровья восполняют максимум единиц.",
+    "Irish Republican Army" : "Ирландская Республиканская Армия",
+    "For the final scoring of territories, 2 districts (12 hexes) are not considered English." : "При финальном подсчете территорий, 2 района (12 гексов) не считаются английскими.",
+
+    "Italy" : "Италия",
+    "Papal whim" : "Папская прихоть",
+    "You can declare a Crusade 4 times per game lasting 5 circles." : "Вы можете объявить Крестовый поход 4 раза за игры длительностью в 5 кругов.",
+    "Mafia share" : "Доля мафии",
+    "All cards for restoring ammunition are less in half, but not less than 1 point." : "Все карточки восстановления боеприпасов уменьшены вдвое, но не меньше 1-ой ед."
 }
