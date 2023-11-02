@@ -21,8 +21,28 @@
 
 <!-- Bootstrap Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
+{{-- CKeditor https://ckeditor.com/ckeditor-5/download/--}}
+<script src="https://cdn.ckeditor.com/ckeditor5/40.0.0/classic/ckeditor.js"></script>
 <!-- Подключение иконок https://fontawesome.com/icons -->
 <script src="https://kit.fontawesome.com/2ffbfd9d62.js" crossorigin="anonymous"></script>
+
+<script>
+    ClassicEditor
+        .create( document.querySelector( '#editor' ),{
+            toolbar: {
+                items: [
+                    'undo', 'redo',
+                    '|', 'heading',
+                    '|', 'bold', 'italic',
+                    '|', 'link', 'blockQuote',
+                    '|', 'bulletedList', 'numberedList'
+                ],
+                shouldNotGroupWhenFull: false
+            },
+        } )
+        .catch( error => {
+            console.error( error );
+        } );
+</script>
 </body>
 </html>

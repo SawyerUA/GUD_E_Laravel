@@ -80,6 +80,7 @@
                                 <script>
                                     let lang = document.getElementById('lang');
                                     let locale = document.getElementById('locale').toString();
+                                    console.log(locale);
                                         if (locale.length < 38){
                                             lang.innerHTML = locale.slice(22, 24).toUpperCase();
                                         }else if(locale.length > 39){

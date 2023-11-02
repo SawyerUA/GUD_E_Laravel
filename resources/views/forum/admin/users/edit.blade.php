@@ -17,16 +17,11 @@
                     <label for="user" class="form-label">{{__('User login')}}</label>
                     <input type="text" class="form-control" placeholder="{{__('User name')}}" name="name" value="{{$user->name}}">
                 </div>
-                <div class="form-check">
-                    <input name="is_admin" class="form-check-input" type="hidden" value="{{$user->is_admin}}" id="is_admin">
-                    @if($user->is_admin == 1)
-                    <input name="is_admin" class="form-check-input"  type="checkbox" value="{{$user->is_admin}}" id="is_admin" checked>
-                    <label class="form-check-label" for="is_admin">{{__('Admin')}}</label>
-                    @else
-                    <input name="is_admin" class="form-check-input" type="checkbox" value="1" id="is_admin">
-                    <label class="form-check-label" for="is_admin">{{__('Admin')}}</label>
-                    @endif
-                </div>
+                <select class="form-select mb-3" aria-label="select" name="is_admin">
+                    @foreach($roles as $id => $role)
+                    <option value="{{$id}}" {{$id == $user->is_admin ? ' selected' : ''}}>{{$role}}</option>
+                    @endforeach
+                </select>
                 <button type="submit" class="btn btn-secondary mt-3" name="btn-edit-user">{{__('User update')}}</button>
             </form>
         </div>

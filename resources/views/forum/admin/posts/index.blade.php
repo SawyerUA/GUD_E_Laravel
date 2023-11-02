@@ -16,7 +16,7 @@
             @foreach($posts as $post)
                 <div class="row">
                     <div class="col-1">{{$post->id}}</div>
-                    <div class="col-7"><a class="link" href="{{route('post.show', [$post->id, app()->getLocale()])}}">{{substr($post->title, 0, 35) == 35 ? $post->title : substr($post->title, 0, 35) . '...'}}</a> </div>
+                    <div class="col-7"><a class="link" href="{{route('post.show', [$post->id, app()->getLocale()])}}">{{mb_strlen($post->title) <= 35 ? $post->title : substr($post->title, 0, 35) . '...'}}</a> </div>
                     <div class="col-2"><a class="edit" href="{{route('post.edit', [$post->id, app()->getLocale()])}}"><i class="fa-solid fa-pencil fa-sm"></i>{{__('Edit')}}</a></div>
                     <div class="col-2"><a class="del">
                         <form action="{{route('post.destroy', [$post->id, app()->getLocale()])}}" method="post">

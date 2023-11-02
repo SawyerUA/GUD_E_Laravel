@@ -16,7 +16,8 @@ class UserController extends Controller
 
     public function edit(User $user){
         $categories = Category::all();
-        return view('forum/admin/users/edit', compact('user','categories'));
+        $roles = User::getRoles();
+        return view('forum/admin/users/edit', compact('user','categories', 'roles'));
     }
 
     public function update(User $user){

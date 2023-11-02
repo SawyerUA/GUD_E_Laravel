@@ -2,6 +2,7 @@
 
 namespace App\Http\Middleware;
 
+use App\Models\User;
 use Closure;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -15,8 +16,8 @@ class AdminMiddleware
      */
     public function handle(Request $request, Closure $next): Response
     {
-        if (auth()->user()->is_admin !== 1){
-            return redirect(route('home.index'));
+        if (auth()->user()->is_admin !== User::ROLE_ADMIN){
+            return redirect(route('home.index', app()->getLocale()));
         }
         return $next($request);
     }

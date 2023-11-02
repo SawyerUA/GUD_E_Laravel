@@ -16,7 +16,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        $user = User::factory(19)->create();
+        //$user = User::factory(19)->create();
 
         $category = Category::factory(6)->sequence(
             [
@@ -56,7 +56,7 @@ class DatabaseSeeder extends Seeder
                 'created_at' => now()
             ])->create();
 
-        $post = Post::factory(50)->create();
+        //$post = Post::factory(50)->create();
 
         // \App\Models\User::factory()->create([
         //     'name' => 'Test User',

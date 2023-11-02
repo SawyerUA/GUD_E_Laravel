@@ -14,8 +14,8 @@
                     <input type="text" class="form-control" placeholder="{{__('Post title')}}" aria-label="Post-name" name="title" value="{{$post->title}}">
                 </div>
                 <div class="col">
-                    <label for="content" class="form-label">{{__('Post content')}}</label>
-                    <textarea class="form-control" id="content" rows="3" name="content">{{$post->content}}</textarea>
+                    <label for="editor" class="form-label">{{__('Post content')}}</label>
+                    <textarea class="form-control" id="editor" rows="3" name="content">{{$post->content}}</textarea>
                 </div>
                 <div class="input-group mb-3">
                     <input type="file" class="form-control" id="img_post" name="img">

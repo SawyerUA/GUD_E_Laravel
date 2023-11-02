@@ -20,9 +20,9 @@ class CategoryController extends Controller
 
     public function store(){
         $data = request()->validate([
-            'category' => 'required|min:5|max:30',
+            'category' => 'required|min:5|max:30|unique:categories',
         ]);
-        Category::updateOrCreate($data, $data);
+        Category::create($data);
         return redirect()->route('category.index', app()->getLocale());
     }
 

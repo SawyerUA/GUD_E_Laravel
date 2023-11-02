@@ -263,6 +263,9 @@ form a:hover{
 .comments .one-com .del{
     color: #800000;
 }
+.comments .one-com .edit{
+    color: #006400;
+}
 .comments .one-com .del i{
     padding-right: 5px;
 }
