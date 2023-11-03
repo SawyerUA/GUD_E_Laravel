@@ -9,10 +9,10 @@
             <div class="row d-inline-block ms-3 mb-5">
                 <div class="post-text col-12">
                     <i class="fa-solid fa-user fa-xs"></i>{{$user}}
-                    <i class="fa-solid fa-calendar-days fa-xs ms-3"></i>{{$post->created_at}}
+                    <i class="fa-solid fa-calendar-days fa-xs ms-3"></i>{{$post->DateCarbon->format('H:i, d F Y')}}
                 </div>
                 <img src="{{asset('storage/' . $post->img)}}" alt="..." class="img-fluid img-single-post float-start">
-                <p>{{$post->content}}</p>
+                <p>{!!$post->content!!}</p>
             </div>
 
             @include('layouts.include.comment')

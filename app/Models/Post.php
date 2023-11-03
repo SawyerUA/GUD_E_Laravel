@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Laravel\Scout\Attributes\SearchUsingPrefix;
@@ -25,5 +26,9 @@ class Post extends Model
             'title' => $this->title,
             'content' => $this->content,
         ];
+    }
+
+    public function getDateCarbonAttribute(){
+        return Carbon::parse($this->created_at);
     }
 }

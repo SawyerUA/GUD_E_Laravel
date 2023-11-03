@@ -5,7 +5,11 @@
         @include('layouts.include.sidebar')
         <div class="col-md-9">
             <h2 class="text-center mb-5 mt-4">{{__('Edit post')}}</h2>
-
+            @if($errors->any())
+                @foreach($errors->all() as $error)
+                    <p class="text-center text-danger fw-bold fs-6 mt-3 mb-4 fst-italic errMsg">{{$error}}</p>
+                @endforeach
+            @endif
             <form action="{{route('post.update', [$post->id, app()->getLocale()])}}" method="post" enctype="multipart/form-data">
                 @csrf
                 @method('put')

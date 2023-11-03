@@ -40,6 +40,12 @@
     "Registration": "Реєстрація",
     "Your email will not use for spam": "Ваша пошта не буде використана для спаму",
 
+    "Verify Your Email Address" : "Підтвердіть вашу email адресу",
+    "A fresh verification link has been sent to your email address." : "Нове посилання для підтвердження вашого email було надіслано",
+    "Before proceeding, please check your email for a verification link." : "Перед тим, як продовжити, переіврте будь-ласка вашу пошту на підтвердження вашої email адреси",
+    "If you did not receive the email" : "Якщо ви не отримали email",
+    "click here to request another" : "натисніть сюди для повторного відправлення",
+
     "Search" : "Пошук",
     "type something..." : "введіть щось...",
     "Categories" : "Розділи",

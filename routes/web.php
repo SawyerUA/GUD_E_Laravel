@@ -34,11 +34,15 @@ Route::prefix('{locale}')->middleware('setlocale')->group(function(){
     Route::get('/units', [UnitsController::class, 'units'])->name('units.index');
     Route::get('/components', [ComponentsController::class, 'components'])->name('components.index');
     Route::get('/fractions', [FractionsController::class, 'fractions'])->name('fractions.index');
-    Route::get('/forum', [ForumController::class, 'forum'])->middleware('auth')->name('forum.index');
+    Route::get('/forum', [ForumController::class, 'forum'])->middleware(['verified', 'auth'])->name('forum.index');
     Route::get('/search', [SearchController::class, 'index'])->name('search.index');
 
-    Auth::routes();
+    Auth::routes(['verify' => true]);
 });
+//Верификация
+Route::get('/email/verify', [App\Http\Controllers\Auth\VerificationController::class,'show'])->name('verification.notice');
+Route::get('/email/verify/{id}/{hash}', [App\Http\Controllers\Auth\VerificationController::class,'verify'])->name('verification.verify');
+Route::post('/email/resend', [App\Http\Controllers\Auth\VerificationController::class,'resend'])->name('verification.resend');
 
 //Роуты юзеров
 Route::middleware('admin')->group(function(){
