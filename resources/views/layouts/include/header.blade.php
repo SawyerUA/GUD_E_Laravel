@@ -77,18 +77,6 @@
                                         @if(app()->getLocale() == $locale) id="locale" style="text-decoration: underline" @endif>{{strtoupper($locale)}}</a></li>
                                     @endforeach
                                 </ul>
-                                <script>
-                                    let lang = document.getElementById('lang');
-                                    let locale = document.getElementById('locale').toString();
-                                    console.log(locale);
-                                        if (locale.length < 38){
-                                            lang.innerHTML = locale.slice(22, 24).toUpperCase();
-                                        }else if(locale.length > 39){
-                                            lang.innerHTML = locale.slice(45).toUpperCase();
-                                        }else{
-                                            lang.innerHTML = locale.slice(36).toUpperCase();
-                                        }
-                                </script>
                             </li>
                         </ul>
                     </div>

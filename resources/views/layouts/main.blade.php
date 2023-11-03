@@ -44,5 +44,17 @@
             console.error( error );
         } );
 </script>
+<script>
+    let lang = document.getElementById('lang');
+    let locale = document.getElementById('locale').toString();
+
+    if (locale.includes('en') === true ){
+        lang.innerHTML = 'EN';
+    }else if(locale.includes('ua') === true ){
+        lang.innerHTML = 'UA';
+    }else if(locale.includes('ru') === true ){
+        lang.innerHTML = 'RU';
+    }
+</script>
 </body>
 </html>

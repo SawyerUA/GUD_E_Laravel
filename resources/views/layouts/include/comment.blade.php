@@ -18,12 +18,12 @@
     </form>
 
     <div class="col-12">
-        <h3 class="col-12">{{__('All comments')}}</h3>
+        <h3 class="col-12">{{__('All comments')}}: {{$post->comments->count()}}</h3>
         @foreach ($comments as $comment)
             @if($comment->post_id == $post->id)
                 <div class="row one-com">
                     <div class="col-12">
-                        <span class="">{{$comment->name}}</span>
+                        <span class="">{{$comment->user->name}}</span>
                         <span class="text-muted float-end">{{$comment->DateCarbon->diffForHumans()}}</span>
                     </div>
                     <div>

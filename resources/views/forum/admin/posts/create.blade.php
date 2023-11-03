@@ -30,7 +30,8 @@
                 <select class="form-select mb-3" aria-label="select" name="category_id">
                     <option selected value="">{{__('Select a category:')}}</option>
                     @foreach($categories as $category)
-                        <option value="{{$category->id}}">{{$category->category}}</option>
+                        <option value="{{$category->id}}"
+                        {{$category->id == old('category_id') ? 'selected' : ''}}>{{$category->category}}</option>
                     @endforeach
                 </select>
                 <button type="submit" class="btn btn-secondary" name="btn-create-post">{{__('Create post')}}</button>

@@ -232,10 +232,10 @@ form a:hover{
 .table-content i{
     padding-right: 5px;
 }
-.table-content .edit{
+.table-content .edit, .post-text .edit{
     color: #006400;
 }
-.table-content .del{
+.table-content .del, .post-text .del{
     color: #800000;
 }
 /*--- Сингл пост ---*/
