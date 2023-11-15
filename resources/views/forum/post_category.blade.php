@@ -6,6 +6,7 @@
         @include('layouts.include.sidebar')
 
         <div class="container col-md-9">
+            @include('layouts.include.search_inp')
             <h3 class="text-center">{{__('Posts from: ')}}<span class="fst-italic"><u>{{$category->category}}</u></span></h3>
 
             @foreach($posts as $post)

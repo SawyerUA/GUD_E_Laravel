@@ -6,7 +6,7 @@
         <input type="hidden" name="user_id" value="{{Auth()->user()->id}}">
         <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">{{__('Email')}}</label>
-            <input name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" value="{{Auth()->user()->email}}">
+            <input name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" value="{{Auth()->user()->email}}" readonly>
         </div>
         <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label">{{__("Here you can leave your comment")}}</label>
@@ -23,7 +23,13 @@
             @if($comment->post_id == $post->id)
                 <div class="row one-com">
                     <div class="col-12">
-                        <span class="">{{$comment->user->name}}</span>
+                        <span class="">
+                            @if($comment->user->img != NULL)
+                                <img class="profile-img" style="height: 20px" src="{{asset('storage/' . $comment->user->img)}}">
+                            @else
+                                <i class="fa-regular fa-user"></i>
+                            @endif
+                                {{$comment->user->name}}</span>
                         <span class="text-muted float-end">{{$comment->DateCarbon->diffForHumans()}}</span>
                     </div>
                     <div>

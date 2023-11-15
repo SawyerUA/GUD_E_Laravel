@@ -54,18 +54,28 @@
                                             <li><a class="dropdown-item" href="{{route('login', app()->getLocale())}}">{{__('Log in')}}</a></li>
                                             <li><a class="dropdown-item" href="">{{__('Logout')}}</a></li>
                                         </ul>
+                                    </li>
                                 @endif
                             @else
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-regular fa-user"></i> {{ Auth::user()->name }}</a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <form id="logout-form" action="{{ route('logout', app()->getLocale())}}" method="post">
-                                        @csrf
-                                        <li><a class="dropdown-item" href="{{ route('logout', app()->getLocale())}}"
-                                               onclick="event.preventDefault();
-                                                document.getElementById('logout-form').submit();">{{__('Logout')}}</a></li>
-                                    </form>
-                                </ul>
+                                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        @if(auth()->user()->img != NULL)
+                                            <img class="profile-img" style="height: 20px" src="{{asset('storage/' . auth()->user()->img)}}">
+                                        @else
+                                            <i class="fa-regular fa-user"></i>
+                                        @endif
+                                            <span>{{ Auth::user()->name }}</span>
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="{{route('profile.edit', auth()->user()->id)}}">{{__('Profile')}}</a></li>
+                                        <form id="logout-form" action="{{ route('logout', app()->getLocale())}}" method="post">
+                                            @csrf
+                                            <li><a class="dropdown-item" href="{{ route('logout', app()->getLocale())}}"
+                                                   onclick="event.preventDefault();
+                                                    document.getElementById('logout-form').submit();">{{__('Logout')}}</a></li>
+                                        </form>
+                                    </ul>
+                                </li>
                             @endguest
                             <li class="nav-item dropdown">
                                 <a class="nav-link active dropdown-toggle language" id="lang" data-bs-toggle="dropdown" aria-expanded="false"></a>

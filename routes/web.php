@@ -8,6 +8,7 @@ use App\Http\Controllers\FractionsController;
 use App\Http\Controllers\IndexController;
 use App\Http\Controllers\Post\PostController;
 use App\Http\Controllers\Post_CategoryController;
+use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\RulesController;
 use App\Http\Controllers\SearchController;
 use App\Http\Controllers\UnitsController;
@@ -28,7 +29,7 @@ Route::get('/', function () {
     return redirect(app()->getLocale());
 });
 
-Route::prefix('{locale}')->middleware('setlocale')->group(function(){
+Route::prefix('{locale?}')->middleware('setlocale')->group(function(){
     Route::get('/', [IndexController::class, 'index'])->name('home.index');
     Route::get('/rules', [RulesController::class, 'rules'])->name('rules.index');
     Route::get('/units', [UnitsController::class, 'units'])->name('units.index');
@@ -51,6 +52,16 @@ Route::middleware('admin')->group(function(){
     Route::put('/user/{user}', [UserController::class, 'update'])->name('user.update');
     Route::delete('/user/{user}', [UserController::class, 'destroy'])->name('user.destroy');
 });
+
+//Роуты найстроки профиля
+Route::get('/profile/{user}/edit', [ProfileController::class, 'edit'])->name('profile.edit');
+Route::put('/profile/{user}/update', [ProfileController::class, 'update'])->name('profile.update');
+Route::get('/profile/{user}/password_change', [ProfileController::class, 'password_change'])->name('profile.password_change.show');
+Route::put('/profile/{user}/password_change', [ProfileController::class, 'password_update'])->name('profile.password_update.update');
+Route::post('profile/{user}/password_reset', [ProfileController::class, 'password_reset'])->name('profile.password_reset.patch');
+
+Route::get('/profile/{user}/email_change', [ProfileController::class, 'email_change'])->name('profile.email_change.show');
+Route::put('/profile/{user}/email_change', [ProfileController::class, 'email_update'])->name('profile.email_update.update');
 
 //Роуты категорий
 Route::middleware('admin')->group(function(){
@@ -86,8 +97,58 @@ Route::delete('/{comment}/{post}', [CommentController::class, 'destroy'])->middl
 Route::get('/post_category/{category}', [Post_CategoryController::class, 'show'])->name('post_category.index');
 
 
-
-
+//
+//Route::get('/forgot-password', function () {
+//    return view('auth.forgot-password');
+//})->middleware('guest')->name('password.request');
+//
+//use Illuminate\Http\Request;
+//use Illuminate\Support\Facades\Password;
+//
+//Route::post('/forgot-password', function (Request $request) {
+//    $request->validate(['email' => 'required|email']);
+//
+//    $status = Password::sendResetLink(
+//        $request->only('email')
+//    );
+//
+//    return $status === Password::RESET_LINK_SENT
+//        ? back()->with(['status' => __($status)])
+//        : back()->withErrors(['email' => __($status)]);
+//})->middleware('guest')->name('password.email');
+//
+//Route::get('/reset-password/{token}', function ($token) {
+//    return view('auth.reset-password', ['token' => $token]);
+//})->middleware('guest')->name('password.reset');
+//
+//use Illuminate\Auth\Events\PasswordReset;
+//use Illuminate\Support\Facades\Hash;
+//use Illuminate\Support\Str;
+//
+//Route::post('/reset-password', function (Request $request) {
+//    $request->validate([
+//        'token' => 'required',
+//        'email' => 'required|email',
+//        'password' => 'required|min:8|confirmed',
+//    ]);
+//
+//    $status = Password::reset(
+//        $request->only('email', 'password', 'password_confirmation', 'token'),
+//        function ($user, $password) {
+//            $user->forceFill([
+//                'password' => Hash::make($password)
+//            ])->setRememberToken(Str::random(60));
+//
+//            $user->save();
+//
+//            event(new PasswordReset($user));
+//        }
+//    );
+//
+//    return $status === Password::PASSWORD_RESET
+//        ? redirect()->route('login')->with('status', __($status))
+//        : back()->withErrors(['email' => [__($status)]]);
+//})->middleware('guest')->name('password.update');
 
 
 

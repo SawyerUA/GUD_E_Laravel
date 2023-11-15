@@ -1,16 +1,5 @@
 <div class="container">
     <div class="row">
-        <div class="container">
-            <nav class="navbar navbar-light">
-                <div class="container-fluid justify-content-end">
-                    <form class="d-flex col-sm-4" action="{{route('search.index', app()->getLocale())}}" method="get">
-                        <input class="form-control" type="search" placeholder="{{__('type something...')}}" aria-label="Search"
-                               name="search" value="{{request('search')}}">
-                        <button class="btn btn-secondary" type="submit">{{__('Search')}}</button>
-                    </form>
-                </div>
-            </nav>
-        </div>
         <div class="container col-md-3 forum-categ">
             <h3 class="text-center categ">{{__('Categories')}}</h3>
             <ul class="forum-categ">

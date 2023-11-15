@@ -10,10 +10,12 @@
                     <span><i class="fa-solid fa-envelope"></i>ddddd@gmail.com</span>
                 </div>
                 <div class="socials mt-3">
-                    <a href="#"><i class="fa-brands fa-telegram social"></i>Telegram</a>
-                    <a href="#"><i class="fa-brands fa-viber social"></i>Viber</a><br>
-                    <a href="#"><i class="fa-brands fa-facebook social"></i>Facebook</a>
-                    <a href="#"><i class="fa-brands fa-discord social"></i>Discord</a>
+                    <ul class="list">
+                        <li><a href="#"><i class="fa-brands fa-telegram social"></i>Telegram</a></li>
+                        <li><a href="#"><i class="fa-brands fa-viber social"></i>Viber</a></li>
+                        <li><a href="#"><i class="fa-brands fa-facebook social"></i>Facebook</a></li>
+                        <li><a href="#"><i class="fa-brands fa-discord social"></i>Discord</a></li>
+                    </ul>
                 </div>
             </div>
             <div class="col-md-4 col-12">

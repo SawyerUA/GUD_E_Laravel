@@ -24,6 +24,7 @@ class UpdateRequest extends FormRequest
         return [
             'title' => 'required|min:5',
             'content' => 'required|min:30',
+            'img' => 'file',
             'category_id' => 'required',
         ];
     }

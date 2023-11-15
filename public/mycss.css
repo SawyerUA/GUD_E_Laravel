@@ -47,6 +47,9 @@ header li:hover{
 .dropdown-item:hover{
     background-color: var(--color1);
 }
+.language:hover{
+    cursor: pointer;
+}
 .navbar-nav{
     background: var(--color2);
     border-radius: 5px;
@@ -60,6 +63,9 @@ header li:hover{
     font-size: 26px;
     font-style: italic;
     text-shadow: -2px 1.5px 5px #ffffff;
+}
+.profile-img{
+    border-radius: 10px;
 }
 /*Section to play and forwhom*/
 .to-play, .forwhom{
@@ -99,15 +105,28 @@ header li:hover{
 }
 
 /*Accordions*/
-.accordion-button:not(.collapsed){
+.units-accordion:not(.collapsed){
     color: black;
     background-color: #BDB76B;
 }
-.accordion-button:not(.collapsed)::after{
+.units-accordion:not(.collapsed)::after{
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='black'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }
-.accordion-button, .accordion-body{
+.units-accordion, .accordion-body{
     background: #eee;
+}
+.reset_pass{
+    width: auto;
+}
+.reset_pass:not(.collapsed){
+    color: black;
+    background-color: #fff;
+}
+.reset_pass, .accordion-body{
+    background: #fff;
+}
+.reset_pass::after, .reset_pass:not(.collapsed)::after {
+    background-image: none;
 }
 
 /*--- Footer ---*/
@@ -126,6 +145,10 @@ footer .socials a{
 footer .socials a:hover{
     color: khaki;
     transition: 0.5s;
+}
+.socials ul{
+    list-style: none;
+    padding-left: 0;
 }
 .list{
     margin-top: 15px;

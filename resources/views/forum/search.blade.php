@@ -6,6 +6,7 @@
         @include('layouts.include.sidebar')
 
         <div class="container col-md-9">
+            @include('layouts.include.search_inp')
             <h3 class="text-center">{{__('Found posts')}}</h3>
             <div class="row posts">
                 @foreach($posts as $post)
