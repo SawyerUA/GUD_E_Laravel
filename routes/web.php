@@ -8,7 +8,9 @@ use App\Http\Controllers\FractionsController;
 use App\Http\Controllers\IndexController;
 use App\Http\Controllers\Post\PostController;
 use App\Http\Controllers\Post_CategoryController;
-use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\Profile\Email\ProfileEmailController;
+use App\Http\Controllers\Profile\Password\ProfilePasswordController;
+use App\Http\Controllers\Profile\ProfileController;
 use App\Http\Controllers\RulesController;
 use App\Http\Controllers\SearchController;
 use App\Http\Controllers\UnitsController;
@@ -31,7 +33,15 @@ Route::get('/', function () {
 
 Route::prefix('{locale?}')->middleware('setlocale')->group(function(){
     Route::get('/', [IndexController::class, 'index'])->name('home.index');
-    Route::get('/rules', [RulesController::class, 'rules'])->name('rules.index');
+
+    Route::prefix('rules')->group(function (){
+        Route::get('/', [RulesController::class, 'rules'])->name('rules.index');
+        Route::get('/2', [RulesController::class, 'rules2'])->name('rules2.index');
+        Route::get('/3', [RulesController::class, 'rules3'])->name('rules3.index');
+        Route::get('/4', [RulesController::class, 'rules4'])->name('rules4.index');
+        Route::get('/5', [RulesController::class, 'rules5'])->name('rules5.index');
+    });
+
     Route::get('/units', [UnitsController::class, 'units'])->name('units.index');
     Route::get('/components', [ComponentsController::class, 'components'])->name('components.index');
     Route::get('/fractions', [FractionsController::class, 'fractions'])->name('fractions.index');
@@ -53,15 +63,16 @@ Route::middleware('admin')->group(function(){
     Route::delete('/user/{user}', [UserController::class, 'destroy'])->name('user.destroy');
 });
 
-//Роуты найстроки профиля
-Route::get('/profile/{user}/edit', [ProfileController::class, 'edit'])->name('profile.edit');
+//Роуты найстроек профиля
+Route::get('/profile/{user}/index', [ProfileController::class, 'index'])->name('profile.index');
 Route::put('/profile/{user}/update', [ProfileController::class, 'update'])->name('profile.update');
-Route::get('/profile/{user}/password_change', [ProfileController::class, 'password_change'])->name('profile.password_change.show');
-Route::put('/profile/{user}/password_change', [ProfileController::class, 'password_update'])->name('profile.password_update.update');
-Route::post('profile/{user}/password_reset', [ProfileController::class, 'password_reset'])->name('profile.password_reset.patch');
 
-Route::get('/profile/{user}/email_change', [ProfileController::class, 'email_change'])->name('profile.email_change.show');
-Route::put('/profile/{user}/email_change', [ProfileController::class, 'email_update'])->name('profile.email_update.update');
+Route::get('/profile/{user}/password_change', [ProfilePasswordController::class, 'index'])->name('profile.password_change.index');
+Route::put('/profile/{user}/password_change', [ProfilePasswordController::class, 'update'])->name('profile.password_update.update');
+Route::post('profile/{user}/password_reset', [ProfilePasswordController::class, 'reset'])->name('profile.password_reset.reset');
+
+Route::get('/profile/{user}/email_change', [ProfileEmailController::class, 'index'])->name('profile.email_change.index');
+Route::put('/profile/{user}/email_change', [ProfileEmailController::class, 'update'])->name('profile.email_update.update');
 
 //Роуты категорий
 Route::middleware('admin')->group(function(){
@@ -95,61 +106,6 @@ Route::delete('/{comment}/{post}', [CommentController::class, 'destroy'])->middl
 
 //Роут вывода постов под конкретную категорию
 Route::get('/post_category/{category}', [Post_CategoryController::class, 'show'])->name('post_category.index');
-
-
-//
-//Route::get('/forgot-password', function () {
-//    return view('auth.forgot-password');
-//})->middleware('guest')->name('password.request');
-//
-//use Illuminate\Http\Request;
-//use Illuminate\Support\Facades\Password;
-//
-//Route::post('/forgot-password', function (Request $request) {
-//    $request->validate(['email' => 'required|email']);
-//
-//    $status = Password::sendResetLink(
-//        $request->only('email')
-//    );
-//
-//    return $status === Password::RESET_LINK_SENT
-//        ? back()->with(['status' => __($status)])
-//        : back()->withErrors(['email' => __($status)]);
-//})->middleware('guest')->name('password.email');
-//
-//Route::get('/reset-password/{token}', function ($token) {
-//    return view('auth.reset-password', ['token' => $token]);
-//})->middleware('guest')->name('password.reset');
-//
-//use Illuminate\Auth\Events\PasswordReset;
-//use Illuminate\Support\Facades\Hash;
-//use Illuminate\Support\Str;
-//
-//Route::post('/reset-password', function (Request $request) {
-//    $request->validate([
-//        'token' => 'required',
-//        'email' => 'required|email',
-//        'password' => 'required|min:8|confirmed',
-//    ]);
-//
-//    $status = Password::reset(
-//        $request->only('email', 'password', 'password_confirmation', 'token'),
-//        function ($user, $password) {
-//            $user->forceFill([
-//                'password' => Hash::make($password)
-//            ])->setRememberToken(Str::random(60));
-//
-//            $user->save();
-//
-//            event(new PasswordReset($user));
-//        }
-//    );
-//
-//    return $status === Password::PASSWORD_RESET
-//        ? redirect()->route('login')->with('status', __($status))
-//        : back()->withErrors(['email' => [__($status)]]);
-//})->middleware('guest')->name('password.update');
-
 
 
 //Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

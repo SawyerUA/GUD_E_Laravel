@@ -145,6 +145,131 @@
 
     "The player who has lost all units is eliminated from the game." : "Игрок, который потерял всех юнитов выбывает из игры.",
 
+
+    "Game phases" : "Игровые фазы",
+
+    "The game consists of phases. Each phase ends with the person who starting the game. One phase equal the one year. Each player, in order of his turn, takes the following actions:" : "Игра состоит из фаз. Каждая фаза заканчивается тем, кто начинал игру. Одна фаза равна одному году. Каждый игрок в порядке своего хода совершает следующие действия:",
+
+    "Find out what awaits you today" : "Узнай, что сегодня ожидает тебя",
+    "draw one card from the «Daily events» card deck for every unit before it starts movement and announce it. For all units, fulfill the conditions that are written on the card. After completion, discard the card." : "вытяните по одной карте из колоды «Ежики» для каждого юнита перед тем, как он начнет движение, и объявите их. Для всех юнитов выполните условия, написанные на карте. По завершении сбросьте карту.",
+
+    "In search of glory" : "В поисках славы",
+    "if desired, draw one card from the «Tasks» card deck and announce it. Keep the card with your unit until him will promoted or if you decide to discard the card. Once the conditions are met, discard the card." : "по желанию вытащите одну карту из колоды «Задания» и объявите ее. Удерживайте карту у своего юнита до момента его повышения, или если вы не решите сбросить карту. Когда условия выполнены, сбросьте карту.",
+    "There can be no more than" : "Не может быть больше",
+    "one" : "одной",
+    "«Tasks» card" : "карточки «Задания»",
+    "on one basic unit" : "на одном базовом юните",
+    "You can not to take the «Tasks» card for non-basic units." : "Ты не можешь взять карточку «Задания» для небазового юнита.",
+
+    "Is it worth" : "А стоит ли",
+    "if there are enough hexes between your and an enemy unit, you can optionally start a battle with it (see below). If you want to avoid combat, you can simply do the number of steps that rolled on the die." : "если между вашим и враждебным юнитом достаточно гексов, вы можете по желанию начать с ним бой (см. ниже). Если вы хотите избежать боя, вы можете просто сделать то количество шагов, которое выпало на кубике.",
+
+    "Repeat all steps for all your units." : "Повторите все действия для всех ваших юнитов.",
+    "You can use only" : "Вы можете использовать только",
+    "one die" : "один кубик",
+    "for movement." : "для перемещения.",
+    "Each unit can move only once at its turn." : "Каждый юнит может ходить только один раз за свой ход.",
+
+    "In one turn you can shoot and move." : "В один ход вы можете стрелять и двигаться.",
+    "But there can not be more" : "Но на одном гексе не может быть больше",
+    "than one" : "одного",
+    "unit on the hex." : "юнита.",
+
+
+    "Fighting system" : "Боевая система",
+
+    "It is important to know that each unit has its own rules of engagement (see below). It should be remembered that you can only shoot at an enemy if he is standing on the same line with your one. After you will deal the damage to the enemy, the «armor» parameter will decrease first. When the «armor» parametr will reach zero, the «health» parameter will decrease next. You are obliged to strictly follow these instructions, and also not to forget possible buffs or debuffs that could be written on certain cards before you start the battle." : "Важно знать, что каждый юнит имеет свои правила боя (см. ниже). Следует помнить, что стрелять по врагу можно только в том случае, если он стоит на одной линии с вашим юнитом. После того, как вы нанесете врагу урон, сначала уменьшится параметр «броня». Когда параметр «броня» достигнет нуля, дальше будет уменьшаться параметр «здоровье». Вы обязаны строго следовать этим инструкциям, а также не забывать о возможных бафах или дебафах, которые могут быть записаны на определенных картах перед началом боя.",
+
+    "Before you shoot, make sure that there is a sufficient number of hexes between your and the enemy unit (it is different for each type of unit);" : "Прежде чем стрелять, убедитесь, что между вашим и враждебным юнитом есть достаточное количество гексов (оно разная для каждого типа юнита);",
+
+    "You can engage in close combat if both units (yours and enemy one) are on adjacent hexes from each other;" : "Вы можете вступить в ближний бой, если оба юнита (ваш и враждебный) находятся на соседних гексах друг от друга;",
+
+    "Before knife stabbing or shooting, you must roll one or two dice respectively, which will show the amount of damage and accuracy;" : "Перед ударом ножа или выстрелом необходимо бросить один или два кубика соответственно, которые покажут количество повреждений и точность;",
+
+    "An accuracy die is rolled when the difference between the units" : "Кубик точности бросается, когда разница между юнитами",
+    "is greater," : "больше,",
+    "than 4 hexes inclusive;" : "чем 4 гекса включительно;",
+
+    "In knife stabbing, accuracy dice is not rolled." : "В бою на ножах кубик на не бросается.",
+
+    "In the battle damage will deal as much as the amount of damage rolled on the dice. In the case of a die roll for accuracy, damage is subtracted with the difference;" : "В бою будет нанесено столько урона, сколько выпало на кубике. В случае броска кубика на точность повреждения высчитается с разницей;",
+
+    "If on the damage die rolls 5 and on the accuracy die rolls 6, then the damage will dealt in full." : "Если на кубике урона выпадет 5, а на кубике точности - 6, то урон будет нанесен в полном объеме.",
+    "If on the damage die rolls 5 and on the accuracy die rolls 4, then the difference that is missing to the maximum value of the second die is subtracted. That is: 5 damage minus 2 accuracy, we get 3 units of damage." : "Если на кубике урона выпало 5, а на кубике точности – 4, то вычитается разница, которой не хватает до максимального значения второго кубика. То есть: 5 урона минус 2 точности, получаем 3 единицы урона.",
+
+    "In knife stabbing, both players roll the damage dice. Who roll the highest number wins. The losing unit dies. If the dice values is equal, the battle ends;" : "В битве на ножах оба игрока бросают кубики. Побеждает тот, у кого выпадет наибольшее число. Проигравший юнит погибает. Если значение кубиков равно, бой заканчивается;",
+
+    "The grenade (see below) is thrown only three hexes and can deal full damage;" : "Граната (см. ниже) бросается только на три гекса и может нанести полный ущерб;",
+
+    "Strategic points such as the «Bunker» and «Field Headquarters» have a buff that allows you to receive an armor bonus in the event of a firefight there. That is, the enemy's damage will be reduced (see below);" : "Такие стратегические точки, как «Бункер» и «Полевой штаб» имеют баф, который позволяет получить бонус к броне в случае перестрелки там. То есть урон противника будет уменьшен (см. ниже);",
+
+    "Natural objects have buffs or debuffs that gives different effects to the unit which standing or passing through them (see below)." : "Природные объекты имеют бафы или дебафы, которые дают разные эффекты юниту, который стоит или проходит через них (см. ниже).",
+
+    "It is impossible" : "Невозможно",
+    "to make a shot, to throw a grenade, or to melee with knife in one turn. You need to choose one thing. Whenever damage is dealt, the «armor» parameter is always decrease first, and only then the «health» parameter." : "за один ход сделать выстрел, бросить гранату или сражаться ножом. Нужно выбрать что-нибудь одно. Каждый раз, когда нанесен урон, сначала уменьшается параметр «брони», а только затем параметр «здоровья».",
+
+
+    "There are several types of units in the game, which are divided into different types of forces, and also have their own special capabilities. There are seven of them in total: rifleman, stormtrooper, scout, sniper, machine gunner, pilot and artillery commander." : "В игре есть несколько видов юнитов, которые делятся на разные типы войск, а также имеют свои особые возможности. Всего их семь: стрелок, штурмовик, скаут, снайпер, пулеметчик, пилот и командир артиллерии.",
+
+    "The basic units are the first 4 units that are given to you at the start of the game (rifleman, scout, machine gunner, sniper). They are marked with a star. It is worth noting that if you received a unit during the promoted, that is, you called it onto the field, then it is not basic and is indicated by a number for simplified orientation." : "Базовые юниты – это первые 4 юнита, которые даются вам в начале игры (стрелок, скаут, пулеметчик, снайпер). Они отмечены звездочкой. Следует отметить, что если вы получили юнит во время повышения, то есть вызвали его на поле, то он не является базовым и обозначается номером для упрощенной ориентировки.",
+    "In order not to describe here what is already on the site, we suggest simply following the link by clicking on the circle. Yes, yes, right on the icon, or on the inscription with its name." : "Чтобы не описывать здесь то, что уже есть на сайте, предлагаем просто перейти по ссылке, нажав круг. Да-да, прямо на иконку или на надпись с ее названием.",
+
+    "Texture objects, strategic points and their hidden bonuses" : "Текстурные объекты, стратегические точки и их скрытые бонусы",
+    "The map shows several textures that have different buffs and debuffs. Conventionally, they can be divided into: «Strategic» and «Natural». In order to take advantage of the effects of the former, you must «capture» them, that is, place your unit on a hex with this object. In each such object, except of the airfield and the artillery center, cards with buffs or debuffs are hidden. To get the effects from the second, you just need to stand on them." : "На карте показано несколько текстур, имеющих разные бафы и дебафы. Условно их можно разделить на: «Стратегические» и «Природные». Чтобы воспользоваться эффектами первых, вы должны «захватить» их, то есть разместить своего юнита на гексе с этим объектом. В каждом таком объекте, кроме аэродрома и артиллерийского центра, спрятаны карты с бафами или дебафами. Чтобы получить эффект от второго, вам просто нужно встать на них.",
+
+
+    "Fractions and their features" : "Фракции и их особенности",
+    "The game has a number of countries for which the player can play. At the start of the game, they are given out randomly or chosen at will, but we still recommend the first option. Each fraction has two features that are always active. Study them carefully and apply them wisely." : "В игре есть ряд стран, за которые игрок может играть. В начале игры они выдаются случайным образом или выбираются по желанию, но мы все равно рекомендуем первый вариант. Каждая фракция имеет две особенности, которые всегда активны. Внимательно изучите их и применяйте с умом.",
+    "You may think that the features of some fractions may violate the rules. Just know that their features completely ignore all the rules and other cards, being undeniable." : "Вы можете подумать, что особенности некоторых фракций могут нарушать правила. Просто знайте, что их особенности полностью игнорируют все правила и другие карты, будучи неоспоримыми.",
+
+
+    "What are points and what about them?" : "Что такое баллы и что с ними делать?",
+
+    "Should to recal about the points that were mentioned earlier. As stated, you can win the game if at the end you have more points than your opponents. They can be obtained in different ways. But you can also lose them. It is very important to keep track of their number and, if desired, write them down on time to facilitate calculations and fair play." : "Следует напомнить о баллах, упомянутых ранее. Как было сказано, вы можете выиграть игру, если в конце у вас будет больше баллов, чем у ваших соперников. Их можно получить разными способами. Но вы также можете их потерять. Очень важно следить за их количеством и при желании своевременно записывать для облегчения расчетов и честной игры.",
+
+    "What you can get points for:" : "За что можно получить баллы:",
+    "The easiest and fastest way to score points is to capture enemy or neutral territories. For each captured district, you get 1 point." : "Самый простой и быстрый способ набрать очки – это захват враждебных или нейтральных территорий. За каждую захваченную район вы получаете 1 балл.",
+    "It will be a little more expensive to capture districts with a strategic point. For such areas you get 2 points." : "Несколько дороже обойдется захват районов со стратегической точкой. За такие участки вы получаете 2 балла.",
+    "To capture the «district» immediately, you need to place a flag of your color on the central hex." : "Чтобы немедленно захватить район, нужно разместить флаг своего цвета на центральном гексе.",
+    "The next simple method is to mark the completion of tasks. For each completed task, you receive 1 point. In the same place where it is written about a double reward, you get 2 points accordingly." : "Следующий простой способ – это отметка о выполнении задач. За каждое выполненное задание вы получаете 1 балл. Там же, где написано о двойном вознаграждении, вы получаете соответственно 2 балла.",
+    "And the last possible option would be to kill an enemy units. For one killed, you will get 1 point." : "И последним возможным вариантом будет убийство юнитов противника. За одного убитого вы получите 1 балл.",
+
+    "What you can lose points for:" : "За что можно потерять баллы:",
+    "If your district was captured, you lose 1 point." : "Если ваш район был захвачен, вы теряете 1 балл.",
+    "If you reset tasks, you lose 5 points. But remember that 1 task can be reset without losing points." : "Если вы сбросите задачу, вы теряете 5 баллов. Но помните, что одну задачу можно сбросить без потери баллов.",
+    "For an uncompleted task you lose 1 point." : "За невыполненное задание вы теряете 1 балл.",
+    "If you lose all your units and you eliminated from the game, your points are canceled." : "Если вы лишаетесь всех своих юнитов и выбываете из игры, ваши баллы аннулируются.",
+
+    "Rank system and tasks" : "Система званий и задания",
+    "Tasks play an important role in the game, and there are those who can ignore the rules of the game and the «Dayli» cards. Of course, you may do not do them - it depends on your desire and desire to win. For completing each task, one point is added to your task scale. What it is?" : "Задания играют важную роль в игре, и есть те, которые могут игнорировать правила игры и карты «Ежиков». Конечно, вы можете их не делать – это зависит от вашего желания и желания победить. При выполнении каждого задания к вашей шкале задач добавляется один балл. Что это?",
+    "This task scale directly affects the promoting system for your basic units. Every three completed tasks allow you to receive a new soldier rank. These ranks provide the opportunity to apply the effect that accompanies upon receipt. The completed task must be placed under the unit’s card, a kind of note indicating that he completed them. After you done three tasks , you must return them in the «Tasks» deck and shuffle them." : "Эта шкала задач оказывает непосредственное влияние на систему продвижения ваших базовых юнитов. Каждые три выполненных задания позволяют получить новое звание солдата. Эти звания позволяют применить эффект, который появляется при получении. Выполненное задание должно быть размещенно под карточкой юнита, своего рода памятник о том, что он их выполнил. После выполнения трех заданий необходимо вернуть их в колоду «Задания» и перетасовать.",
+    "Initially, each basic unit is a Private. During the game, all your units," : "В начале каждый базовый юнит является рядовым. Во время игры все ваши юниты,",
+    "except" : "кроме",
+    "extra and summoning ones, can be promoted to four ranks:" : "дополнительних и призванных могут быть повышены на четыре звания:",
+    "Sergeant" : "Сержант",
+    "Captain" : "Капитан",
+    "Colonel" : "Полковник",
+    "General" : "Генерал",
+    "After completing the task, you need to record that this unit completed the mission. As soon as three tasks have been completed, a star is placed on your unit’s card, which indicates the rank (Sergeant - 1, Captain - 2, Colonel - 3, General - 4)." : "После выполнения задания, вам нужно зафиксировать, что этот юнит выполнил миссию. После выполнения трех заданий на карточке вашего юнита появляется звездочка, указывающая на звание (сержант – 1, капитан – 2, полковник – 3, генерал – 4).",
+
+    "What is the advantage of ranks?" : "Какой плюс от звания?",
+    "Upon reaching this rank, your unit's armor is completely restored. Also, you have the opportunity to summon one rifleman to the front." : "После достижения этого звания броня вашего юнита полностью восстанавливается. Также у вас есть возможность призвать одного стрелка на фронт.",
+    "Upon reaching this rank, your unit's health is fully restored. Also, you have the opportunity to summon one stormtrooper to the front." : "После достижения этого звания здоровье вашего юнита полностью восстанавливается. Также у вас есть возможность призвать одного штурмовика на фронт.",
+    "Upon reaching this rank, your unit's health and armor are fully restored. Also, you have the opportunity to summon one scout to the front." : "После достижения этого звания здоровье и броня вашего юнита полностью восстанавливаются. Также у вас есть возможность призвать одного скаута на фронт.",
+    "Upon reaching this rank, you have the opportunity to call a sniper or machine gunner to the front, as well as call for an air strike on enemy troops." : "После достижения этого звания, вы можете призвать на фронт снайпера или пулеметчика, а также вызвать авиаудар по войскам противника.",
+    "It is important to remember that only basic units can receive ranks and draw the «Tasks» deck. Summoned and extra units do not have this ability." : "Важно помнить, что только базовые юниты могут получать звание и тянуть колоду «Задания». Призванные и дополнительные юниты не имеют этой возможности.",
+
+
+    "Other game features" : "Другие особенности игры",
+
+    "Let's quickly return to what we've covered. Rules are an undeniable part of the game. But higher in importance are: «Dailys», «Tasks» and fractions effects. Follow this carefully, and you will not have problems with the game." : "Давайте быстро вернемся к тому, что мы рассмотрели. Правила являются неоспоримой частью игры. Но выше по важности являются: «Ежики», «Задания» и эффекты фракций. Внимательно за этим следите и у вас не возникнет проблем с игрой.",
+    "As for the time of year? There are only two of them: winter (cold) and summer (warm). Each of them lasts two phases, but the game always starts at summer. They do not carry any more gaming load other than what has already been written." : "Что касается времен года? Их всего два: зимний (холодный) и летний (теплый). Каждое из них длится две фазы, но игра всегда начинается летом. Больше игровой нагрузки кроме того, что уже было написано, они не несут.",
+    "In conclusion, we would like to say that the game is full of setups and all kinds of triks. Remember that every country does not have an endless number of troops that it leads. The combat units may run out, so keep a close eye on it." : "В заключение хочется сказать, что игра полна подстав и всевозможных уловок. Помните, что у каждой страны нет бесконечного количества войск, которыми она управляет. Боевой состав может заканчиваться, поэтому внимательно следите за ним.",
+    "For a more comfortable game, treat it with humor. By the way, you are not prohibited from organizing «unions». But to betray, to stick a knife in the back or put a spoke in the wheels is always welcome. Alliances are concluded in words, but for greater realism, we recommend using a separate piece of paper so that this is clearly recorded and no one asks unnecessary questions. One has only to add that the conditions of such unions must be negotiated or spelled out and observed. There are no clear rules about this point." : "Для более комфортной игры относитесь к ней с юмором. Кстати, вам не запрещено организовывать «союзы». Но предать, воткнуть нож в спину или вставить палку в колеса всегда приветствуется. Союзы заключаются на словах, но для большей реалистичности рекомендуем использовать отдельный лист бумаги, чтобы это было четко зафиксировано и никто не задавал лишних вопросов. Остается лишь добавить, что условия таких союзов должны быть оговорены или прописаны и соблюдены. На этот счет нет четких правил.",
+    "You are the ruler, your country is your kid. Everyone who encroaches on your territory is an enemy, and these are the other players at the table. Don't trust anyone. Lead wisely and honestly. Correctly assess your chances and achieve victories." : "Вы правитель, ваша страна – ваш ребенок. Каждый, кто покушается на вашу территорию – враг, а это другие игроки за столом. Не доверяйте никому. Правьте мудро и честно. Правильно оценивайте свои шансы и добивайтесь побед.",
+    "Well, have a good game!" : "Что ж, удачной игры!",
+
+
     "Previous" : "Пред.",
     "Next" : "След.",
 

@@ -41,13 +41,13 @@
                     <h6 class="accordion-header" id="reset_pass">
                         <button class="reset_pass accordion-button collapsed fw-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">{{__('What should i do if i forgot my password, but i want to change it!')}}</button>
                     </h6>
-                    <form method="post" action="{{route('profile.password_reset.patch', $user->id)}}" id="collapse1" class="accordion-collapse collapse" aria-labelledby="reset_pass" data-bs-parent="#reset_pass">
+                    <form method="post" action="{{route('profile.password_reset.reset', $user->id)}}" id="collapse1" class="accordion-collapse collapse" aria-labelledby="reset_pass" data-bs-parent="#reset_pass">
                         @csrf
                         <input type="hidden" name="password" value="{{$user->password}}">
                         <label for="email" class="form-label mt-3">{{__('Email')}}</label>
                         <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="введите ваш email" name="email" value="{{$user->email}}" readonly>
                         <div id="emailHelp" class="form-text mb-3">{{__('You will get an email with a new password in case you chose reset your old one')}}</div>
-                        <a href="{{route('profile.password_reset.patch', $user->id)}}"> <button type="submit" class="ms-1 btn btn-sm btn-link">{{__('Reset password')}}</button></a>
+                        <a href="{{route('profile.password_reset.reset', $user->id)}}"> <button type="submit" class="ms-1 btn btn-sm btn-link">{{__('Reset password')}}</button></a>
                     </form>
                 </div>
             </div>

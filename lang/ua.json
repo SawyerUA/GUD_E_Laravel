@@ -136,7 +136,7 @@
 
     "Each" : "Кожен",
     "basic unit" : "базовий юніт",
-    "can reset one task once without losing points (see below)." : "має можливість скинути один раз одне завдання без втрати очок (див. нижче).",
+    "can reset one task once without losing points (see below)." : "має можливість скинути один раз одне завдання без втрати балів (див. нижче).",
 
     "It happens that some conditions in the cards will strongly conflict with the rules. Therefore, remember: the rules are certainly important to follow, but the text on the Daily cards is more important than them in meaning, and the text on the Task cards is more important than the previous ones." : "Буває таке, що деякі умови в картках сильно конфліктуватимуть із правилами. Тому запам'ятайте: правила безумовно важливі для дотримання, але текст на картках «Їжаків» важливіший за їх значення, а текст на картках «Завдання» важливіший за попередні.",
 
@@ -147,9 +147,132 @@
     "There are different ways to win:" : "Перемогти можна різними способами:",
 
     "Destroy all enemies" : "Знищити всіх супротивників",
-    "Win at the end of the game with the maximum number of points (see below)" : "Виграти в кінці гри, набравши максимальну кількість очок (див. нижче)",
+    "Win at the end of the game with the maximum number of points (see below)" : "Виграти в кінці гри, набравши максимальну кількість балів (див. нижче)",
 
     "The player who has lost all units is eliminated from the game." : "Гравець, який втратив всіх юнітів вибуває з гри.",
+
+
+    "Game phases" : "Ігрові фази",
+
+    "The game consists of phases. Each phase ends with the person who starting the game. One phase equal the one year. Each player, in order of his turn, takes the following actions:" : "Гра складається з фаз. Кожна фаза закінчується тим, хто починає гру. Одна фаза дорівнює одному року. Кожен гравець в порядку свого ходу здійснює наступні дії:",
+
+    "Find out what awaits you today" : "Дізнайся, що сьогодні очікує на тебе",
+    "draw one card from the «Daily events» card deck for every unit before it starts movement and announce it. For all units, fulfill the conditions that are written on the card. After completion, discard the card." : "витягніть по одній карті з колоди «Їжачки» для кожного юніта перед тим, як він почне рух, і оголосиьте їх. Для всіх юнітів виконайте умови, які написані на картці. Після завершення скиньте картку.",
+
+    "In search of glory" : "В пошуках слави",
+    "if desired, draw one card from the «Tasks» card deck and announce it. Keep the card with your unit until him will promoted or if you decide to discard the card. Once the conditions are met, discard the card." : "за бажанням витягніть одну карту з колоди «Завдання» та оголосіть її. Притримайте картку у свого юніта до моменту його підвищення, або якщо ви не вирішите скинути карту. Коли умови виконано, скиньте картку.",
+    "There can be no more than" : "Не може бути більше",
+    "one" : "однієї",
+    "«Tasks» card" : "карточки «Завдання»",
+    "on one basic unit" : "на одному базовому юніті",
+    "You can not to take the «Tasks» card for non-basic units." : "Ти не можешь взяти картку «Завдання» для небазового юніта.",
+
+    "Is it worth" : "А чи варто",
+    "if there are enough hexes between your and an enemy unit, you can optionally start a battle with it (see below). If you want to avoid combat, you can simply do the number of steps that rolled on the die." : "якщо між вашим та ворожим юнітом достатньо гексів, ви можете за бажанням розпочати з ним бій (див.нижче). Якщо ви хочете уникнути бою, ви можете просто зробити ту кількість кроків, яка випала на кубику.",
+
+    "Repeat all steps for all your units." : "Повторіть всі дії для всіх ваших юнітів.",
+    "You can use only" : "Ви можете використовувати лише",
+    "one die" : "один кубик",
+    "for movement." : "для переміщення.",
+    "Each unit can move only once at its turn." : "Кожен юніт може ходити лише один раз за свій хід.",
+
+    "In one turn you can shoot and move." : "В один хід ви можете стріляти і рухатися.",
+    "But there can not be more" : "Але на одному гексі не може бути більше",
+    "than one" : "одного",
+    "unit on the hex." : "юніта.",
+
+
+    "Fighting system" : "Бойова система",
+
+    "It is important to know that each unit has its own rules of engagement (see below). It should be remembered that you can only shoot at an enemy if he is standing on the same line with your one. After you will deal the damage to the enemy, the «armor» parameter will decrease first. When the «armor» parametr will reach zero, the «health» parameter will decrease next. You are obliged to strictly follow these instructions, and also not to forget possible buffs or debuffs that could be written on certain cards before you start the battle." : "Важливо знати, що кожен юніт має власні правила бою (див. нижче). Слід пам'ятати, що стріляти по ворогу можна тільки в тому випадку, якщо він стоїть на одній лінії з вашим юнітом. Після того, як ви завдасте ворогу шкоди, спочатку зменшиться параметр «броня». Коли параметр «броня» досягне нуля, далі буде зменшуватися параметр «здоров'я». Ви зобов'язані суворо дотримуватися цих інструкцій, а також не забувати про можливі бафи або дебафи, які можуть бути записані на певних картах перед початком бою.",
+
+    "Before you shoot, make sure that there is a sufficient number of hexes between your and the enemy unit (it is different for each type of unit);" : "Перш ніж стріляти, переконайтеся, що між вашим і ворожим юнітом є достатня кількість гексів (вона різна для кожного типу юніта);",
+
+    "You can engage in close combat if both units (yours and enemy one) are on adjacent hexes from each other;" : "Ви можете вступити в ближній бій, якщо обидва юніти (ваш і ворожий) знаходяться на сусідніх гексах один від одного;",
+
+    "Before knife stabbing or shooting, you must roll one or two dice respectively, which will show the amount of damage and accuracy;" : "Перед ударом ножа або пострілом необхідно кинути один або два кубики відповідно, які покажуть кількість пошкоджень і точність;",
+
+    "An accuracy die is rolled when the difference between the units" : "Кубик точності кидається, коли різниця між юнітами",
+    "is greater," : "більше,",
+    "than 4 hexes inclusive;" : "ніж 4 гекса включно;",
+
+    "In knife stabbing, accuracy dice is not rolled." : "В бою на ножах кубик на точність не кидається.",
+
+    "In the battle damage will deal as much as the amount of damage rolled on the dice. In the case of a die roll for accuracy, damage is subtracted with the difference;" : "У бою буде завдано стільки шкоди, скільки випало на кубику. У разі кидка кубика на точність пошкодження віднімається з різницею;",
+
+    "If on the damage die rolls 5 and on the accuracy die rolls 6, then the damage will dealt in full." : "Якщо на кубику шкоди випаде 5, а на кубику точності – 6, то шкоди буде завдано в повному обсязі.",
+    "If on the damage die rolls 5 and on the accuracy die rolls 4, then the difference that is missing to the maximum value of the second die is subtracted. That is: 5 damage minus 2 accuracy, we get 3 units of damage." : "Якщо на кубикушкоди випало 5, а на кубику точності – 4, тоді віднімається різниця, якої не вистачає до максимального значення другого кубика. Тобто: 5 шкоди мінус 2 точності, отримуємо 3 одиниці шкоди.",
+
+    "In knife stabbing, both players roll the damage dice. Who roll the highest number wins. The losing unit dies. If the dice values is equal, the battle ends;" : "В битві на ножах обидва гравці кидають кубики. Перемагає той, у кого випаде найбільше число. Програвший юніт гине. Якщо значення на кубиках рівне, бій закінчується;",
+
+    "The grenade (see below) is thrown only three hexes and can deal full damage;" : "Граната (див. нижче) кидається лише на три гекси і може завдати повної шкоди;",
+
+    "Strategic points such as the «Bunker» and «Field Headquarters» have a buff that allows you to receive an armor bonus in the event of a firefight there. That is, the enemy's damage will be reduced (see below);" : "Такі стратегічні точки, як «Бункер» і «Польовий штаб» мають баф, який дозволяє отримати бонус до броні в разі перестрілки там. Тобто шкода супротивника буде зменшена (див. нижче);",
+
+    "Natural objects have buffs or debuffs that gives different effects to the unit which standing or passing through them (see below)." : "Природні об’єкти мають бафи чи дебафи, які дають різні ефекти юніту, який стоїть або проходить через них (див. нижче).",
+
+    "It is impossible" : "Неможливо",
+    "to make a shot, to throw a grenade, or to melee with knife in one turn. You need to choose one thing. Whenever damage is dealt, the «armor» parameter is always decrease first, and only then the «health» parameter." : "за один хід зробити постріл, кинути гранату або битися ножем. Потрібно вибрати щось одне. Щоразу, коли завдано шкоди, спочатку зменшується параметр «броні», а лише потім параметр «здоров’я».",
+
+
+    "There are several types of units in the game, which are divided into different types of forces, and also have their own special capabilities. There are seven of them in total: rifleman, stormtrooper, scout, sniper, machine gunner, pilot and artillery commander." : "У грі є декілька видів юнітів, які поділяються на різні типи військ, а також мають свої особливі можливості. Всього їх сім: стрілець, штурмовик, скаут, снайпер, кулеметник, пілот і командир артилерії.",
+
+    "The basic units are the first 4 units that are given to you at the start of the game (rifleman, scout, machine gunner, sniper). They are marked with a star. It is worth noting that if you received a unit during the promoted, that is, you called it onto the field, then it is not basic and is indicated by a number for simplified orientation." : "Базові юніти - це перші 4 юніти, які даються вам на початку гри (стрілець, скаут, кулеметник, снайпер). Вони позначені зірочкою. Варто відзначити, що якщо ви отримали юніт під час підвищення, тобто викликали його на поле, то він не є базовим і позначається номером для спрощеного орієнтування.",
+    "In order not to describe here what is already on the site, we suggest simply following the link by clicking on the circle. Yes, yes, right on the icon, or on the inscription with its name." : "Щоб не описувати тут те, що вже є на сайті, пропонуємо просто перейти за посиланням, натиснувши на коло. Так-так, прямо на іконку, чи на напис з її назвою.",
+
+    "Texture objects, strategic points and their hidden bonuses" : "Текстурні об'єкти, стратегічні точки та їх приховані бонуси",
+    "The map shows several textures that have different buffs and debuffs. Conventionally, they can be divided into: «Strategic» and «Natural». In order to take advantage of the effects of the former, you must «capture» them, that is, place your unit on a hex with this object. In each such object, except of the airfield and the artillery center, cards with buffs or debuffs are hidden. To get the effects from the second, you just need to stand on them." : "На мапі показано декілька текстур, які мають різні бафи та дебафи. Умовно їх можна поділити на: «Стратегічні» та «Природні». Щоб скористатися ефектами перших, ви повинні «захопити» їх, тобто розмістити свого юніта на гексі з цим об’єктом. У кожному такому об'єкті, крім аеродрому і артилерійського центру, заховані карти з бафами або дебаффами. Щоб отримати ефект від другого, вам просто потрібно стати на них.",
+
+    "Fractions and their features" : "Фракції та їх особливості",
+    "The game has a number of countries for which the player can play. At the start of the game, they are given out randomly or chosen at will, but we still recommend the first option. Each fraction has two features that are always active. Study them carefully and apply them wisely." : "У грі є ряд країн, за які гравець може грати. На початку гри вони видаються випадковим чином або вибираються за бажанням, але ми все одно рекомендуємо перший варіант. Кожна фракція має дві особливості, які завжди активні. Уважно вивчіть їх і застосовуйте з розумом.",
+    "You may think that the features of some fractions may violate the rules. Just know that their features completely ignore all the rules and other cards, being undeniable." : "Ви можете подумати, що особливості деяких фракцій можуть порушувати правила. Просто знайте, що їхні особливості повністю ігнорують усі правила та інші карти, будучи незаперечними.",
+
+
+    "What are points and what about them?" : "Що таке бали і що з ними робити?",
+
+    "Should to recal about the points that were mentioned earlier. As stated, you can win the game if at the end you have more points than your opponents. They can be obtained in different ways. But you can also lose them. It is very important to keep track of their number and, if desired, write them down on time to facilitate calculations and fair play." : "Варто нагадати про бали, які були згадані раніше. Як було сказано, ви можете виграти гру, якщо в кінці у вас буде більше балів, ніж у ваших суперників. Їх можна отримати різними способами. Але ви також можете їх втратити. Дуже важливо стежити за їх кількістю і при бажанні вчасно записувати для полегшення розрахунків і чесної гри.",
+
+    "What you can get points for:" : "За що можна отримати бали:",
+    "The easiest and fastest way to score points is to capture enemy or neutral territories. For each captured district, you get 1 point." : "Найпростіший і найшвидший спосіб набрати очки - це захоплення ворожих або нейтральних територій. За кожну захоплену область ви отримуєте 1 бал.",
+    "It will be a little more expensive to capture districts with a strategic point. For such areas you get 2 points." : "Трохи дорожче обійдеться захоплення районів зі стратегічною точкою. За такі ділянки ви отримуєте 2 бали.",
+    "To capture the «district» immediately, you need to place a flag of your color on the central hex." : "Щоб негайно захопити «район», потрібно розмістити прапор свого кольору на центральному гексі.",
+    "The next simple method is to mark the completion of tasks. For each completed task, you receive 1 point. In the same place where it is written about a double reward, you get 2 points accordingly." : "Наступний простий спосіб - це відмітка про виконання завдань. За кожне виконане завдання ви отримуєте 1 бал. Там же, де написано про подвійну винагороду, ви отримуєте відповідно 2 бали.",
+    "And the last possible option would be to kill an enemy units. For one killed, you will get 1 point." : "І останнім можливим варіантом буде вбивство юнітів супротивника. За одного вбитого ви отримаєте 1 бал.",
+
+    "What you can lose points for:" : "За що можна втратити бали:",
+    "If your district was captured, you lose 1 point." : "Якщо ваш район був захоплений, ви втрачаєте 1 бал.",
+    "If you reset tasks, you lose 5 points. But remember that 1 task can be reset without losing points." : "Якщо ви скинете завдання, ви втрачаєте 5 балів. Але пам'ятайте, що 1 завдання можна скинути без втрати балів.",
+    "For an uncompleted task you lose 1 point." : "За невиконане завдання ви втрачаєте 1 бал.",
+    "If you lose all your units and you eliminated from the game, your points are canceled." : "Якщо ви втрачаєте всіх своїх юнітів та вибуваєте з гри, ваші бали анулюються.",
+
+    "Rank system and tasks" : "Система звань та завдання",
+    "Tasks play an important role in the game, and there are those who can ignore the rules of the game and the «Dayli» cards. Of course, you may do not do them - it depends on your desire and desire to win. For completing each task, one point is added to your task scale. What it is?" : "Завдання відіграють важливу роль у грі, і є ті, що можуть ігнорувати правила гри та картки «Їжачки». Звичайно, ви можете їх не робити - це залежить від вашого бажання і бажання перемогти. За виконання кожного завдання до вашої шкали завдань додається один бал. Що це?",
+    "This task scale directly affects the promoting system for your basic units. Every three completed tasks allow you to receive a new soldier rank. These ranks provide the opportunity to apply the effect that accompanies upon receipt. The completed task must be placed under the unit’s card, a kind of note indicating that he completed them. After you done three tasks , you must return them in the «Tasks» deck and shuffle them." : "Ця шкала завдань безпосередньо впливає на систему просування ваших базових юнітів. Кожні три виконаних завдання дозволяють отримати нове звання солдата. Ці звання дають можливість застосувати ефект, який з'являється при отриманні. Виконане завдання має бути розміщено під карткою юніта, свого роду пам'ятка про те, що він їх виконав. Після виконання трьох завдань необхідно повернути їх у колоду «Завдання» та перетасувати.",
+    "Initially, each basic unit is a Private. During the game, all your units," : "На початку кожен базовий юніт є Рядовим. Під час гри всі ваші юніти,",
+    "except" : "окрім",
+    "extra and summoning ones, can be promoted to four ranks:" : "додаткових і призовних можуть бути підвищені на чотири звання:",
+    "Sergeant" : "Сержант",
+    "Captain" : "Капітан",
+    "Colonel" : "Полковник",
+    "General" : "Генерал",
+    "After completing the task, you need to record that this unit completed the mission. As soon as three tasks have been completed, a star is placed on your unit’s card, which indicates the rank (Sergeant - 1, Captain - 2, Colonel - 3, General - 4)." : "Після виконання завдання вам потрібно зафіксувати, що цей юніт виконав місію. Після виконання трьох завдань на картці вашого юніта з’являється зірочка, яка вказує на звання (сержант – 1, капітан – 2, полковник – 3, генерал – 4).",
+
+    "What is the advantage of ranks?" : "Який плюс від звання?",
+    "Upon reaching this rank, your unit's armor is completely restored. Also, you have the opportunity to summon one rifleman to the front." : "Після досягнення цього звання броня вашого юніта повністю відновлюється. Також у вас є можливість призвати одного стрільця на фронт.",
+    "Upon reaching this rank, your unit's health is fully restored. Also, you have the opportunity to summon one stormtrooper to the front." : "Після досягнення цього звання здоров’я вашого юніта повністю відновлюється. Також у вас є можливість призвати одного штурмовика на фронт.",
+    "Upon reaching this rank, your unit's health and armor are fully restored. Also, you have the opportunity to summon one scout to the front." : "Після досягнення цього звання здоров’я та броня вашого юніта повністю відновлюються. Також у вас є можливість призвати одного скаута на фронт.",
+    "Upon reaching this rank, you have the opportunity to call a sniper or machine gunner to the front, as well as call for an air strike on enemy troops." : "Після досягнення цього звання, ви маєте можливість призвати на фронт снайпера або кулеметника, а також викликати авіаудар по військах противника.",
+    "It is important to remember that only basic units can receive ranks and draw the «Tasks» deck. Summoned and extra units do not have this ability." : "Важливо пам'ятати, що тільки базові юніти можуть отримувати звання і тягнути колоду «Завдання». Призвані та додаткові юніти не мають цієї можливості.",
+
+
+    "Other game features" : "Інші особливості гри",
+
+    "Let's quickly return to what we've covered. Rules are an undeniable part of the game. But higher in importance are: «Dailys», «Tasks» and fractions effects. Follow this carefully, and you will not have problems with the game." : "Давайте швидко повернемося до того, що ми розглянули. Правила є незаперечною частиною гри. Але вище за важливістю є: «Їжачки», «Завдання» і ефекти фракцій. Дотримуйтесь цього уважно і у вас не виникне проблем із грою.",
+    "As for the time of year? There are only two of them: winter (cold) and summer (warm). Each of them lasts two phases, but the game always starts at summer. They do not carry any more gaming load other than what has already been written." : "Щодо пори року? Їх всього два: зимовий (холодний) і літній (теплий). Кожна з них триває дві фази, але гра завжди починається влітку. Більше ігрового навантаження, крім того, що вже було написано, вони не несуть.",
+    "In conclusion, we would like to say that the game is full of setups and all kinds of triks. Remember that every country does not have an endless number of troops that it leads. The combat units may run out, so keep a close eye on it." : "На завершення хочеться сказати, що гра повна підставами і всілякими хитрощами. Пам’ятайте, що кожна країна не має нескінченної кількості військ, якими вона керує. Бойовий склад може закінчуватися, тому уважно стежте за ним.",
+    "For a more comfortable game, treat it with humor. By the way, you are not prohibited from organizing «unions». But to betray, to stick a knife in the back or put a spoke in the wheels is always welcome. Alliances are concluded in words, but for greater realism, we recommend using a separate piece of paper so that this is clearly recorded and no one asks unnecessary questions. One has only to add that the conditions of such unions must be negotiated or spelled out and observed. There are no clear rules about this point." : "Для більш комфортної гри ставтеся до неї з гумором. До речі, вам не заборонено організовувати «союзи». Але зрадити, встромити ножа в спину чи вставити палицю в колеса завжди вітається. Союзи укладаються на словах, але для більшої реалістичності рекомендуємо використовувати окремий аркуш паперу, щоб це було чітко зафіксовано і ніхто не ставив зайвих питань. Залишається лише додати, що умови таких союзів мають бути обговорені або прописані та дотримані. З цього приводу немає чітких правил.",
+    "You are the ruler, your country is your kid. Everyone who encroaches on your territory is an enemy, and these are the other players at the table. Don't trust anyone. Lead wisely and honestly. Correctly assess your chances and achieve victories." : "Ви правитель, ваша країна - ваша дитина. Кожен, хто зазіхає на вашу територію - ворог, а це інші гравці за столом. Не довіряйте нікому. Правте мудро і чесно. Правильно оцінюйте свої шанси і досягайте перемог.",
+    "Well, have a good game!" : "Що ж, вдалої гри!",
 
     "Previous" : "Попередня",
     "Next" : "Наступна",

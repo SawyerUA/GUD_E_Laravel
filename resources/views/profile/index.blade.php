@@ -51,11 +51,11 @@
                 </form>
                     <div class="row justify-content-center">
                         <div class="mb-3 me-4 col-12 col-md-4">
-                            <a href="{{route('profile.email_change.show', $user->id)}}"><button type="submit" class="ms-1 btn btn-sm btn-link">{{__('Change e-mail')}}</button></a>
+                            <a href="{{route('profile.email_change.index', $user->id)}}"><button type="submit" class="ms-1 btn btn-sm btn-link">{{__('Change e-mail')}}</button></a>
                         </div>
                         <div class="w-100"></div>
                         <div class="mb-3 me-4 col-12 col-md-4">
-                            <a href="{{route('profile.password_change.show', $user->id)}}"> <button type="submit" class="ms-1 btn btn-sm btn-link">{{__('Change password')}}</button></a>
+                            <a href="{{route('profile.password_change.index', $user->id)}}"> <button type="submit" class="ms-1 btn btn-sm btn-link">{{__('Change password')}}</button></a>
                         </div>
                     </div>
             </div>

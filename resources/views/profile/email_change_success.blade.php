@@ -11,7 +11,7 @@
                         <p class="text-center">{{__('Press the button below if you want to come back to profile settings.')}}</p>
                         <div class="row mb-0">
                             <div class="col-md-12 d-flex justify-content-center">
-                                <a href="{{route('profile.edit', $user->id)}}"><button type="submit" class="btn btn-primary">{{ __('Back to settings') }}</button></a>
+                                <a href="{{route('profile.index', $user->id)}}"><button type="submit" class="btn btn-primary">{{ __('Back to settings') }}</button></a>
                             </div>
                         </div>
                     </div>

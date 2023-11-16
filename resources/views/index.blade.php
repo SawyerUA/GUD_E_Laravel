@@ -5,7 +5,17 @@
 @endsection
 
 @section('content')
-    @include('layouts.include.game_btn')
+    <section class="to-play">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-center text-black">GUD-E</h1>
+                    @include('layouts.include.game_btn')
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="about">
         <div class="container">
             <div class="row">
@@ -68,9 +78,7 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <div class="btn-to">
-                        <a href="#" class="btn btn-primary btn-lg">?Скачать?</a>
-                    </div>
+                    @include('layouts.include.game_btn')
                 </div>
             </div>
         </div>
