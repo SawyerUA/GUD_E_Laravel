@@ -11,10 +11,10 @@
                 </div>
                 <div class="socials mt-3">
                     <ul class="list">
-                        <li><a href="https://t.me/DSawy" target="_blank"><i class="fa-brands fa-telegram social"></i>Telegram</a></li>
-                        <li><a href="viber://chat?number=++380674491583" target="_blank"><i class="fa-brands fa-viber social mt-1"></i>Viber</a></li>
-                        <li><a href="https://www.facebook.com/mr.zhudra" target="_blank"><i class="fa-brands fa-facebook social mt-1"></i>Facebook</a></li>
-                        <li><a href="https://discordapp.com/users/329300366548271104/" target="_blank"><i class="fa-brands fa-discord social mt-1"></i>Discord</a></li>
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-telegram social"></i>Telegram</a></li>
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-viber social mt-1"></i>Viber</a></li>
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-facebook social mt-1"></i>Facebook</a></li>
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-discord social mt-1"></i>Discord</a></li>
                     </ul>
                 </div>
             </div>
