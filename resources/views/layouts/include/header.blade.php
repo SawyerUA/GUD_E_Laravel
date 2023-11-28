@@ -67,7 +67,7 @@
                                             <span>{{ Auth::user()->name }}</span>
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <li><a class="dropdown-item" href="{{route('profile.index', auth()->user()->id)}}">{{__('Profile')}}</a></li>
+                                        <li><a class="dropdown-item" href="{{route('profile.index', [auth()->user()->id, app()->getLocale()])}}">{{__('Profile')}}</a></li>
                                         <form id="logout-form" action="{{ route('logout', app()->getLocale())}}" method="post">
                                             @csrf
                                             <li><a class="dropdown-item" href="{{ route('logout', app()->getLocale())}}"

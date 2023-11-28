@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AskAuthorController;
 use App\Http\Controllers\Category\CategoryController;
 use App\Http\Controllers\CommentController;
 use App\Http\Controllers\ComponentsController;
@@ -47,6 +48,8 @@ Route::prefix('{locale?}')->middleware('setlocale')->group(function(){
     Route::get('/fractions', [FractionsController::class, 'fractions'])->name('fractions.index');
     Route::get('/forum', [ForumController::class, 'forum'])->middleware(['verified', 'auth'])->name('forum.index');
     Route::get('/search', [SearchController::class, 'index'])->name('search.index');
+
+    Route::post('/ask', [AskAuthorController::class, 'store'])->name('ask_author.store');
 
     Auth::routes(['verify' => true]);
 });

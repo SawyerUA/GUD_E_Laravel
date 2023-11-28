@@ -11,10 +11,10 @@
                 </div>
                 <div class="socials mt-3">
                     <ul class="list">
-                        <li><a href="#"><i class="fa-brands fa-telegram social"></i>Telegram</a></li>
-                        <li><a href="#"><i class="fa-brands fa-viber social"></i>Viber</a></li>
-                        <li><a href="#"><i class="fa-brands fa-facebook social"></i>Facebook</a></li>
-                        <li><a href="#"><i class="fa-brands fa-discord social"></i>Discord</a></li>
+                        <li><a href="https://t.me/DSawy" target="_blank"><i class="fa-brands fa-telegram social"></i>Telegram</a></li>
+                        <li><a href="viber://chat?number=++380674491583" target="_blank"><i class="fa-brands fa-viber social mt-1"></i>Viber</a></li>
+                        <li><a href="https://www.facebook.com/mr.zhudra" target="_blank"><i class="fa-brands fa-facebook social mt-1"></i>Facebook</a></li>
+                        <li><a href="https://discordapp.com/users/329300366548271104/" target="_blank"><i class="fa-brands fa-discord social mt-1"></i>Discord</a></li>
                     </ul>
                 </div>
             </div>
@@ -40,14 +40,15 @@
                 <div>
                     <p class="text">{{__('Ask author')}}</p>
                 </div>
-                <form class="o-form">
+                <form class="o-form" action="{{route('ask_author.store', app()->getLocale())}}" method="post">
+                    @csrf
                     <label for="mail-to-form" class="form-label"></label>
-                    <input type="email" class="form-control" id="mail-to-form" placeholder="{{__('Email')}}">
+                    <input type="email" name="email" class="form-control" id="mail-to-form" placeholder="{{__('Email')}}">
 
                     <label for="text-mail" class="form-label"></label>
-                    <textarea class="form-control" id="text-mail" rows="2" placeholder="{{__('Ask your question...')}}"></textarea>
+                    <textarea class="form-control" id="text-mail" name="text" rows="2" placeholder="{{__('Ask your question...')}}"></textarea>
 
-                    <button type="submit" class="btn btn-secondary float-end" name="btn-ask">{{__('Send')}}</button>
+                    <button type="submit" class="btn btn-secondary float-end mt-2" name="btn-ask">{{__('Send')}}</button>
                 </form>
             </div>
             <div class="row">
@@ -56,4 +57,5 @@
                 </div>
             </div>
         </div>
+    </div>
 </footer>
