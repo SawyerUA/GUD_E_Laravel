@@ -109,6 +109,23 @@ header li:hover{
     background-repeat: no-repeat;
 }
 
+.tgbot{
+    animation: jumping 550ms linear infinite alternate;
+}
+.tgbot img{
+    border-radius: 999px;
+    height: 60px;
+    width: 60px;
+}
+@keyframes jumping{
+    0%{
+        bottom: 10px;
+    }
+    100%{
+        bottom: 0;
+    }
+}
+
 /*Accordions*/
 .units-accordion:not(.collapsed){
     color: black;

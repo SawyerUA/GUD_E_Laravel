@@ -17,6 +17,8 @@
 
 @yield('content')
 
+@include('layouts.include.jumping_chat')
+
 @include('layouts.include.footer')
 
 <!-- Bootstrap Bundle with Popper -->
